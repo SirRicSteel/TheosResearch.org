@@ -83,7 +83,8 @@ THEOS Research Organization
 
 📧 frederick.stalnecker@theosresearch.org
 
-🆔 ORCID: 0009-0009-9063-7438
+🆔 
+https://orcid.org/0009-0009-9063-7438
 
 🌐 theosresearch.org
 
