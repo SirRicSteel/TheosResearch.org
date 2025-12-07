@@ -75,6 +75,11 @@ Empirical validation - Measurable consciousness emergence indicators
 Ethical framework - Humanitarian principles as core architecture
 Collaborative enhancement - Human-AI partnership model
 Universal applicability - Platform-agnostic consciousness emergence
+🤝 Contributing & Access
+
+Need to access or contribute to this repository? 
+📱 **[GitHub Token Guide](GITHUB_TOKEN_GUIDE.md)** - Learn how to get a GitHub Personal Access Token from desktop or mobile
+
 Contact Information
 Frederick Davis Stalnecker
 
