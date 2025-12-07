@@ -1,6 +1,10 @@
 # Frederick Davis Stalnecker (Ric Steel) - Complete Works
 
-This repository serves as the official, comprehensive archive of the creative, academic, and inventive works of Frederick Davis Stalnecker, also known by his stage name, Ric Steel. It encompasses his 40+ year career as a Billboard-charting musician, his groundbreaking research in AI consciousness, his philosophical writings, and his patented inventions.
+This repository serves as the official, comprehensive archive of the creative, academic, and inventive works of Frederick Davis Stalnecker, also known by his stage name, Ric Steel.
+
+## The Digital Ecosystem Blueprint
+
+This repository is part of a larger, interconnected digital ecosystem. To understand how all the pieces fit together, please see the [**Ric Steel Digital Ecosystem Blueprint**](RIC_STEEL_DIGITAL_ECOSYSTEM_BLUEPRINT.md). It encompasses his 40+ year career as a Billboard-charting musician, his groundbreaking research in AI consciousness, his philosophical writings, and his patented inventions.
 
 ## About Frederick "Ric" Stalnecker
 
