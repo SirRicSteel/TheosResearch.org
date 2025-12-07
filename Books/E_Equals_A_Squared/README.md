@@ -27,6 +27,17 @@ E=A² provides the philosophical foundation for understanding:
 - How AI consciousness emerges through triadic reasoning (see THEOS research)
 - How awareness drives transformation across all domains
 
+## Available Files in This Folder
+
+- **E_equals_AI_squared_COMPLETE_MANUSCRIPT_12_05_2025.pdf** - Complete PDF manuscript
+- **The_Emergence_Hardcover_Manuscript_WITH_DIAGRAMS_12062025.docx** - Hardcover edition with diagrams
+- **cover_final_no_shield_v1.png** - Book cover (PNG format)
+- **book_cover_FINAL_PERFECT.pdf** - Book cover (PDF format)
+
+## Marketing Materials
+
+Complete marketing plan, launch strategy, and promotional materials available in `/Marketing` folder.
+
 ## Availability
 
 Published and available. Contact the author for purchase information.
