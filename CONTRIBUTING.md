@@ -113,7 +113,7 @@ Please do not submit:
 
 ## License
 
-By contributing to this repository, you agree that your contributions will be licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), consistent with the rest of the repository.
+By contributing to this repository, you agree to allow your contributions to be used under the Creative Commons Attribution 4.0 International License (CC BY 4.0), consistent with the rest of the repository. You retain copyright to your contributions.
 
 ## Recognition
 

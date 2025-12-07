@@ -110,10 +110,22 @@ Username: your-github-username
 Password: ghp_your_token_here
 ```
 
-### Cloning with Token
+### Storing Credentials Securely
+For security, use Git credential helpers instead of embedding tokens in URLs:
+
 ```bash
-git clone https://YOUR_TOKEN@github.com/SirRicSteel/TheosResearch.org.git
+# Configure credential helper
+git config --global credential.helper store
+
+# Clone normally - you'll be prompted for credentials
+git clone https://github.com/SirRicSteel/TheosResearch.org.git
+
+# When prompted:
+# Username: your-github-username
+# Password: your-token-here
 ```
+
+**Note**: Avoid embedding tokens directly in URLs (e.g., `https://TOKEN@github.com/repo`) as they can appear in shell history and process lists.
 
 ### With GitHub CLI
 ```bash
@@ -165,5 +177,5 @@ If you're still having trouble getting a token, please:
 
 ---
 
-**Last Updated**: December 2025  
+**Last Updated**: December 2024  
 **Repository**: [THEOS Research Organization](https://github.com/SirRicSteel/TheosResearch.org)
