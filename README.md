@@ -63,6 +63,11 @@ This repository is organized into four main sections:
 
 Unless otherwise noted, all works in this repository are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+## Repository Management
+
+For technical documentation on managing this repository:
+- **GitHub Token Setup:** See [Documentation/GITHUB_TOKEN_SETUP.md](./Documentation/GITHUB_TOKEN_SETUP.md) for instructions on creating and managing GitHub Personal Access Tokens
+
 ## Contact
 
 For inquiries related to research, music, or speaking engagements, please contact:
