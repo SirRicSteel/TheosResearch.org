@@ -75,8 +75,9 @@ A GitHub Personal Access Token (PAT) is a secure alternative to using your passw
 1. **Password Manager:** Store in 1Password, LastPass, or similar
 2. **Environment Variable:** Add to your `.bashrc` or `.zshrc`:
    ```bash
-   export GITHUB_TOKEN="your_token_here"
+   export GITHUB_TOKEN="ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
    ```
+   (Replace with your actual token - tokens start with `ghp_` for personal access tokens)
 3. **Git Credential Manager:** Let Git store it securely for you
 
 ## Using Your Token
@@ -86,13 +87,19 @@ When prompted for a password, use your token instead:
 
 ```bash
 Username: your-github-username
-Password: your-personal-access-token
+Password: ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+(Replace with your actual token when prompted)
+
+### ❌ What NOT to Do
+
+**Never** include tokens directly in URLs or commands:
+```bash
+# DO NOT DO THIS - Token will be exposed in shell history and logs
+git clone https://ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@github.com/SirRicSteel/TheosResearch.org.git
 ```
 
-Or use it directly in the URL (not recommended for security):
-```bash
-git clone https://your-personal-access-token@github.com/SirRicSteel/TheosResearch.org.git
-```
+Instead, let Git prompt you for credentials or use Git Credential Manager.
 
 ### GitHub API
 Include in the Authorization header:
