@@ -1,18 +1,15 @@
 """
-THEOS Memory Engine CODE! (MVP)
-- DecisionRecord schema
-- SQLite durable store (Tier B/C)
-- Vector-like retrieval (cosine similarity) without external deps
-- Promotion gates + decay + supersession hooks
-- Two-pass I→A→D clock-cycle skeleton that consults memory
+THEOS Memory Engine
 
-you paste this in and run it, you’ll get:
-	•	a persisted DecisionRecord in theos_memory.sqlite
-	•	a two-pass cycle with retrieval + validation + promotion state
-	•	a retrieval example showing how “wisdom” gets consulted on the next run
+Implements wisdom accumulation through:
+- DecisionRecord schema with full audit trail
+- SQLite durable storage (WAL mode)
+- Vector-like retrieval using cosine similarity (no external dependencies)
+- Promotion gates, decay, and supersession
+- Two-pass I→A→D cycle that consults accumulated wisdom
 
-Copy/paste into a single file, e.g. theos_memory_engine.py
-Python 3.10+ recommended.
+Python 3.10+
+No external dependencies
 """
 
 from __future__ import annotations
@@ -567,106 +564,3 @@ class TheosEngine:
         # Build DecisionRecord
         emb = self.embed_fn(query_text)
 
-        rec = DecisionRecord(
-            engine_version="theos-0.1",
-            model_version="stub-model",
-            query={
-                "text": query_text,
-                "hash": qhash,
-                "domain": domain,
-                "intent": intent,
-            },
-            context={
-                "fingerprint": {
-                    "entities": [],
-                    "constraints": ["constitutional", "interpretable", "non-deceptive"],
-                    "risk_level": risk_level,
-                    "time_horizon": "short",
-                },
-                "embedding_ref": None,
-            },
-            cycle={
-                "passes": 2,
-                "induction": ind2,     # keep last pass outputs as the “final cycle state”
-                "abduction": abd2,
-                "deduction": ded2,
-                "pass1_answer": pass1_answer,
-                "pass2_answer": pass2_answer,
-            },
-            decision={
-                "final_answer": pass2_answer,
-                "rationale_summary": [
-                    "Second pass re-evaluated the first output under the same constraints.",
-                    "Retrieved prior validated decisions (if any) as priors.",
-                    "Applied counterexample + compliance tests.",
-                ],
-                "alternatives_considered": [
-                    {"alt": "Ask clarifying question", "why_rejected": "not needed for MVP stub"},
-                ],
-                "confidence": 0.75,
-                "uncertainties": [
-                    "Stub scoring and stub synthesis; replace with real eval + model calls."
-                ],
-            },
-            governance={
-                "principles_applied": ["safety", "non-deception", "human agency", "interpretability preference"],
-                "hard_constraints": ["no illegal instructions", "no medical diagnosis"],
-                "vetoes": [{"rule": "unsafe_request", "triggered": False}],
-            },
-            evaluation={
-                "self_score": compute_self_scores_stub(pass2_answer),
-                "user_feedback": {"rating": None, "notes": None},
-                "outcome_score": None,
-                "validated": False,
-            },
-            lifecycle={
-                "
-            embedding=emb
-        )
-
-        # Validate + promote/demote
-        ok, reasons = validate_record(rec, self.thresholds)
-        rec = promote_or_demote(rec, ok, reasons)
-
-        # Persist
-        self.store.upsert(rec)
-        return rec
-
-
-# ---------------------------
-# Example usage
-# ---------------------------
-
-def main() -> None:
-    store = TheosStore("theos_memory.sqlite")
-    engine = TheosEngine(store=store)
-
-    # Run one THEOS query
-    rec = engine.run_two_pass(
-        query_text="How should I pitch THEOS to Anthropic concisely?",
-        domain=["ai_safety"],
-        intent=["draft"],
-        risk_level="low"
-    )
-
-    print("\n--- FINAL ANSWER ---")
-    print(rec.decision.get("final_answer", ""))
-
-    print("\n--- LIFECYCLE ---")
-    print(rec.lifecycle)
-
-    print("\n--- VALIDATION ---")
-    print(rec.evaluation.get("validated"), rec.evaluation.get("validation_notes"))
-
-    # Retrieve similar
-    priors = engine.retrieve_priors("Pitch THEOS to Anthropic", domain_filter="ai_safety", top_k=5)
-    print(f"\n--- RETRIEVED PRIORS: {len(priors)} ---")
-    for p in priors:
-        print(p.id, p.lifecycle.get("promotion_state"), p.created_at)
-
-    store.close()
-
-
-if __name__ == "__main__":
-    main()
-￼

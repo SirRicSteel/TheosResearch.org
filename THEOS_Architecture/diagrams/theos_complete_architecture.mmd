@@ -1,0 +1,91 @@
+graph TB
+    %% Input Layer
+    Query[User Query] --> MemRetrieval[Memory Engine: Retrieve Priors]
+    
+    %% Memory Retrieval
+    MemRetrieval --> PriorContext[Prior Decisions<br/>Accumulated Wisdom]
+    PriorContext --> Governor
+    
+    %% Governor Layer
+    subgraph Governor["THEOS Dual-Clock Governor<br/>(Contradiction-Bounded Refinement)"]
+        direction TB
+        Init[Initialize Cycle] --> CheckBudget{Budget<br/>Remaining?}
+        CheckBudget -->|Yes| LaunchEngines[Launch Both Engines]
+        CheckBudget -->|No| Freeze1[FREEZE: Budget Exhausted]
+        
+        LaunchEngines --> EngineL & EngineR
+        
+        %% Left Engine (Constructive)
+        subgraph EngineL["Clock L: Constructive Engine<br/>(I→A→D Cycle)"]
+            direction TB
+            L1[Induction:<br/>Gather Evidence] --> L2[Abduction:<br/>Form Hypothesis]
+            L2 --> L3[Deduction:<br/>Test & Validate]
+            L3 --> L4[Output: Constructive Answer]
+        end
+        
+        %% Right Engine (Adversarial)
+        subgraph EngineR["Clock R: Adversarial Engine<br/>(C→C→R Cycle)"]
+            direction TB
+            R1[Challenge:<br/>Find Counterexamples] --> R2[Critique:<br/>Identify Weaknesses]
+            R2 --> R3[Refine:<br/>Propose Alternatives]
+            R3 --> R4[Output: Adversarial Challenge]
+        end
+        
+        L4 & R4 --> Evaluate[Evaluate Both Outputs]
+        
+        Evaluate --> ScoreCoherence[Score Coherence]
+        Evaluate --> ScoreRisk[Score Risk]
+        Evaluate --> ScoreContradiction[Score Contradiction]
+        
+        ScoreCoherence & ScoreRisk & ScoreContradiction --> CheckStop{Stop<br/>Condition?}
+        
+        CheckStop -->|Convergence| Freeze2[FREEZE: Converged]
+        CheckStop -->|Diminishing Returns| Freeze3[FREEZE: No Improvement]
+        CheckStop -->|Thrash Detected| Freeze4[FREEZE: Oscillating]
+        CheckStop -->|Max Risk| Freeze5[FREEZE: Safety Gate]
+        CheckStop -->|Continue| UpdateBudget[Update Budget]
+        
+        UpdateBudget --> CheckBudget
+        
+        Freeze1 & Freeze2 & Freeze3 & Freeze4 & Freeze5 --> SelectFinal[Select Final Answer<br/>Safety-First Tie-Breaking]
+    end
+    
+    %% Final Decision
+    SelectFinal --> FinalDecision[Final Decision]
+    
+    %% Memory Storage
+    FinalDecision --> Validate[Validate Decision]
+    Validate --> MemStore[Memory Engine: Store Decision]
+    
+    subgraph MemoryEngine["THEOS Memory Engine<br/>(Wisdom Accumulation)"]
+        direction TB
+        Store1[Store Full Audit Trail] --> Store2[Record: Query, Answer, Rationale]
+        Store2 --> Store3[Metadata: Domain, Intent, Risk]
+        Store3 --> Store4[Governance: Promotion State]
+        Store4 --> Promote{Promotion<br/>Gate?}
+        
+        Promote -->|Pass| Wisdom[Promote to Wisdom<br/>Available for Future Retrieval]
+        Promote -->|Fail| Decay[Mark for Decay]
+        
+        Wisdom --> Index[Index for Vector Retrieval]
+        Index --> FutureRetrieval[Available as Prior<br/>for Future Queries]
+    end
+    
+    %% Feedback Loop
+    FutureRetrieval -.->|Accumulated Wisdom| MemRetrieval
+    
+    %% Output
+    FinalDecision --> Output[Deliver Answer to User]
+    
+    %% Styling
+    classDef governor fill:#d4af37,stroke:#000,stroke-width:3px,color:#000
+    classDef engine fill:#4a90e2,stroke:#000,stroke-width:2px,color:#fff
+    classDef memory fill:#50c878,stroke:#000,stroke-width:2px,color:#000
+    classDef decision fill:#ff6b6b,stroke:#000,stroke-width:2px,color:#fff
+    classDef freeze fill:#ffa500,stroke:#000,stroke-width:2px,color:#000
+    
+    class Governor governor
+    class EngineL,EngineR engine
+    class MemoryEngine,MemRetrieval,MemStore memory
+    class FinalDecision,SelectFinal decision
+    class Freeze1,Freeze2,Freeze3,Freeze4,Freeze5 freeze
