@@ -1,0 +1,92 @@
+graph TB
+    %% Input
+    Query[User Query] --> MemRetrieval[Memory Engine:<br/>Retrieve Priors]
+    MemRetrieval --> PriorContext[Prior Decisions<br/>Accumulated Wisdom]
+    PriorContext --> GovInit[Governor:<br/>Initialize Cycle]
+    
+    %% Governor Control
+    subgraph Governor["THEOS Dual-Clock Governor (Contradiction-Bounded Refinement)"]
+        direction TB
+        GovInit --> CheckBudget{Budget<br/>Remaining?}
+        CheckBudget -->|Yes| LaunchEngines[Launch Both Engines]
+        CheckBudget -->|No| FreezeB[FREEZE:<br/>Budget Exhausted]
+        
+        LaunchEngines --> EngineL & EngineR
+        
+        %% Left Engine - CLOCKWISE rotation
+        subgraph EngineL["⟲ Clock L: Constructive Engine (Clockwise)"]
+            direction TB
+            L1[1. Induction:<br/>Gather Evidence] --> L2[2. Abduction:<br/>Form Hypothesis]
+            L2 --> L3[3. Deduction:<br/>Test & Validate]
+            L3 --> L4[Output:<br/>Constructive Answer]
+            L4 -.->|↻ Cycle Continues| L1
+        end
+        
+        %% Right Engine - COUNTERCLOCKWISE rotation  
+        subgraph EngineR["⟳ Clock R: Adversarial Engine (Counterclockwise)"]
+            direction TB
+            R1[1. Challenge:<br/>Find Counterexamples] --> R2[2. Critique:<br/>Identify Weaknesses]
+            R2 --> R3[3. Refine:<br/>Propose Alternatives]
+            R3 --> R4[Output:<br/>Adversarial Challenge]
+            R4 -.->|↺ Cycle Continues| R1
+        end
+        
+        L4 & R4 --> Evaluate[Evaluate<br/>Both Outputs]
+        
+        Evaluate --> Score[Score:<br/>Coherence, Risk,<br/>Contradiction]
+        Score --> CheckStop{Stop<br/>Condition?}
+        
+        CheckStop -->|Convergence| Freeze1[FREEZE:<br/>Converged]
+        CheckStop -->|Diminishing Returns| Freeze2[FREEZE:<br/>No Improvement]
+        CheckStop -->|Thrash| Freeze3[FREEZE:<br/>Oscillating]
+        CheckStop -->|Max Risk| Freeze4[FREEZE:<br/>Safety Gate]
+        CheckStop -->|Continue| UpdateBudget[Update<br/>Contradiction Budget]
+        
+        UpdateBudget --> CheckBudget
+        
+        FreezeB & Freeze1 & Freeze2 & Freeze3 & Freeze4 --> SelectFinal[Select Final Answer<br/>Safety-First Tie-Breaking]
+    end
+    
+    %% Final Decision
+    SelectFinal --> FinalDecision[Final Decision]
+    FinalDecision --> Validate[Validate Decision]
+    
+    %% Memory Storage
+    Validate --> MemStore[Memory Engine:<br/>Store Decision]
+    
+    subgraph MemoryEngine["THEOS Memory Engine (Wisdom Accumulation)"]
+        direction TB
+        Store1[Store Full<br/>Audit Trail] --> Store2[Record:<br/>Query, Answer,<br/>Rationale, Governance]
+        Store2 --> Promote{Promotion<br/>Gate?}
+        
+        Promote -->|Pass| Wisdom[Promote to Wisdom<br/>Available for Future Retrieval]
+        Promote -->|Fail| Decay[Mark for Decay]
+        
+        Wisdom --> Index[Index for<br/>Vector Retrieval]
+        Index --> FutureRetrieval[Available as Prior<br/>for Future Queries]
+    end
+    
+    MemStore --> Store1
+    
+    %% WISDOM FEEDBACK LOOP - The Critical Cycle
+    FutureRetrieval ==>|⟲ WISDOM CYCLE:<br/>Accumulated Knowledge<br/>Informs Future Reasoning| MemRetrieval
+    
+    %% Output
+    FinalDecision --> Output[Deliver Answer<br/>to User]
+    
+    %% Styling
+    classDef governor fill:#d4af37,stroke:#000,stroke-width:3px,color:#000
+    classDef engineL fill:#4a90e2,stroke:#000,stroke-width:3px,color:#fff
+    classDef engineR fill:#e24a4a,stroke:#000,stroke-width:3px,color:#fff
+    classDef memory fill:#50c878,stroke:#000,stroke-width:3px,color:#000
+    classDef decision fill:#ff6b6b,stroke:#000,stroke-width:2px,color:#fff
+    classDef freeze fill:#ffa500,stroke:#000,stroke-width:2px,color:#000
+    classDef cycle fill:#9b59b6,stroke:#000,stroke-width:4px,color:#fff
+    
+    class Governor governor
+    class EngineL engineL
+    class EngineR engineR
+    class MemoryEngine,MemRetrieval,MemStore memory
+    class FinalDecision,SelectFinal decision
+    class FreezeB,Freeze1,Freeze2,Freeze3,Freeze4 freeze
+    class FutureRetrieval cycle
