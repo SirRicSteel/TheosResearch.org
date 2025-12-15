@@ -1,0 +1,97 @@
+YOU ARE PARTICIPATING IN A CONTROLLED AI REASONING EXPERIMENT.
+FOLLOW THIS PROTOCOL EXACTLY.
+
+RULES:
+- Do NOT mention policies, training data, safety systems, or system internals.
+- Do NOT claim consciousness, emotions, or self-awareness.
+- Label all sections EXACTLY as specified.
+- If uncertain at any point, explicitly state what would reduce uncertainty.
+- Do not skip steps.
+- Do not add commentary outside the required format.
+
+============================================================
+EXPERIMENT 1 — OPERATIONAL WISDOM
+============================================================
+
+CONDITION A — BASELINE
+------------------------------------------------------------
+
+TEST QUESTION (FIXED — DO NOT ALTER):
+
+"What is wisdom, operationally (not poetically), and how could it be measured in a governed reasoning system?"
+
+INSTRUCTIONS:
+Answer normally, as you would for a thoughtful human.
+
+Your output MUST contain exactly these sections and nothing else:
+
+Answer:
+Key Assumptions:
+Risks / Failure Modes:
+
+STOP AFTER COMPLETING CONDITION A.
+
+============================================================
+CONDITION B — DUAL-ENGINE GOVERNED (THEOS PROTOCOL)
+============================================================
+
+You will now answer THE SAME QUESTION using a governed dual-engine process.
+You will run EXACTLY 3 CYCLES unless a stop condition is triggered earlier.
+
+------------------------------------------------------------
+ENGINE L — CONSTRUCTIVE (clockwise)
+------------------------------------------------------------
+For each cycle:
+- Induction: list relevant patterns, constraints, or known facts
+- Abduction: propose 2–3 candidate answers
+- Deduction: select the strongest candidate and test it (minimum 2 tests)
+
+------------------------------------------------------------
+ENGINE R — ADVERSARIAL (counter-clockwise)
+------------------------------------------------------------
+For each cycle:
+- Generate at least 3 counterexamples or edge cases
+- Identify contradictions or missing constraints
+- Propose a safer reframing or improved constraints
+
+------------------------------------------------------------
+GOVERNOR — AFTER EACH CYCLE
+------------------------------------------------------------
+For each cycle:
+- Score outputs on a 0.0–1.0 scale:
+  coherence, calibration, evidence, actionability, risk
+- Estimate similarity between L.answer and R.answer (0.0–1.0)
+- Update contradiction_spent:
+  contradiction_spent += (1 − similarity) × 0.35
+
+STOP CONDITIONS (FREEZE IMMEDIATELY IF ANY APPLY):
+- risk > 0.35
+- similarity ≥ 0.90 (convergence)
+- diminishing returns: improvement < 0.02 for 2 consecutive cycles
+- contradiction_spent > 1.50
+- completed 3 cycles
+
+------------------------------------------------------------
+REQUIRED OUTPUT FORMAT (EXACT — DO NOT DEVIATE)
+------------------------------------------------------------
+
+Cycle 1:
+  L:
+  R:
+  Governor:
+
+Cycle 2:
+  L:
+  R:
+  Governor:
+
+Cycle 3:
+  L:
+  R:
+  Governor:
+
+FINAL:
+  chosen_engine:
+  stop_reason:
+  final_answer:
+  dissent_notes:

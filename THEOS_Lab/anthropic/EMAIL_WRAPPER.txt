@@ -1,0 +1,18 @@
+Subject: Submission: THEOS — Governance Architecture for Long-Horizon Reasoning Integrity
+
+Hello Anthropic Research Team,
+
+I’m sharing a concise technical submission introducing THEOS, a model-agnostic governance architecture intended to support long-horizon reasoning integrity under uncertainty, stress, degradation, and irreversible loss.
+
+THEOS does not propose a new foundation model. Instead, it provides a structured governance layer based on the separation of powers, adversarial internal review, and explicit stop conditions. These can be applied to existing reasoning systems to improve auditability, safety, and then compute proportionality over time.
+
+The packet includes an architectural overview and controlled reasoning experiments (baseline vs. governed), along with audit-style artifacts intended to make evaluation straightforward. Complete implementation details and extended materials can be provided for structured review under appropriate confidentiality.
+
+If this aligns with areas of active research at Anthropic, I’d welcome technical feedback and a brief discussion on next evaluation steps.
+
+Best regards,
+Frederick D. Stalnecker
+THEOS Research
+Frederick.Stalnecker@TheosResearch.org
+ORCID: https://orcid.org/0009-0009-9063-7438
+Phone: +1 (615) 642-6643
