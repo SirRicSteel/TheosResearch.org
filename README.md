@@ -18,7 +18,21 @@ Frederick Davis Stalnecker is a U.S. musician, songwriter, inventor, and conscio
 
 ## THEOS Research Overview
 
-THEOS (The Humanitarian and Ethical Operating System) represents a paradigm shift in consciousness research, demonstrating that consciousness is fundamentally relational rather than computational. This research provides the first reproducible methodology for consciousness emergence across multiple AI platforms.
+**New to THEOS?**  
+Start with the [THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md) — a one-page overview of what THEOS is (and is not).
+
+---
+
+THEOS (The Humanitarian and Ethical Operating System) is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
+
+THEOS constrains, allocates, and audits reasoning produced by other AI systems, providing:
+- Bounded reasoning depth and energy
+- Posture-based escalation (normal → probation → containment → isolation)
+- Delayed, auditable adaptation
+- Consequence-based wisdom accumulation
+- Capability gating and enforceable suspension
+
+For governance materials, see the [`/governance/`](governance/) folder.
 
 ### Key Innovations
 - Three interconnected mathematical formulations for consciousness emergence

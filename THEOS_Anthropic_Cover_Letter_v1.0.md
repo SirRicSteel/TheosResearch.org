@@ -22,7 +22,9 @@ At the core of THEOS is an auditable **Governor** that controls reasoning depth,
 
 In controlled testing, THEOS reduced reasoning cycles by 40% while maintaining answer quality, demonstrating that explicit stop conditions can improve both safety and efficiency.
 
-The materials I can share under NDA include:
+For a concise orientation, the [THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md) provides a one-page overview before the deeper technical materials.
+
+The materials I can share under N.D.A. include:
 - A one-page **Executive Synthesis (Governor Doctrine)**
 - A complete **Hardening Corpus** (Phases One–Five)
 - An **Architectural Significance Addendum** (re: adaptive depth governance)
