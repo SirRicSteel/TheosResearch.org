@@ -1,13 +1,15 @@
 # Cover Letter — Anthropic Review
-**Subject:** Governance-First AI Architecture: THEOS (NDA-Ready)
+**Subject:** Governance-First AI Architecture for Review (NDA Available)
 
 ---
 
 Dear Anthropic Research & Safety Leadership Team,
 
-I am writing to share a governance-first AI architecture called **THEOS (The Humanitarian & Ethical Operating System)** for your consideration under NDA.
+I am writing to propose a governance-first AI architecture that addresses scaling risks Constitutional AI was not designed to solve.
 
-THEOS is not a training method, model, or alignment replacement. It is a **runtime governance layer** designed to make safety, ethics, and restraint structural properties of AI systems as they scale.
+**THEOS (The Humanitarian & Ethical Operating System)** is a runtime governance layer designed to make safety, ethics, and restraint structural properties of AI systems as they scale. It is not a training method, model, or alignment replacement—it is complementary infrastructure.
+
+As reasoning systems scale toward multi-step planning and tool use, the gap between capability and governance is widening. THEOS was designed to close that gap.
 
 Where Constitutional AI governs *what* may be done, THEOS additionally governs:
 - **How much reasoning is applied**
@@ -18,11 +20,14 @@ Where Constitutional AI governs *what* may be done, THEOS additionally governs:
 
 At the core of THEOS is an auditable **Governor** that controls reasoning depth, energy expenditure, posture transitions, capability gating, delayed adaptation, and lifecycle stewardship. This addresses known scaling risks such as unbounded optimization, adversarial probing, gradient extraction, silent governance drift, and capability outpacing oversight.
 
-THE attached materials include:
+In controlled testing, THEOS reduced reasoning cycles by 40% while maintaining answer quality, demonstrating that explicit stop conditions can improve both safety and efficiency.
+
+The materials I can share under NDA include:
 - A one-page **Executive Synthesis (Governor Doctrine)**
-- A complete **Hardening Corpus** (Phases Two–Five)
+- A complete **Hardening Corpus** (Phases One–Five)
 - An **Architectural Significance Addendum** (re: adaptive depth governance)
 - A **Phase Zero Comparative Appendix** situating THEOS alongside RLHF, RLAIF, and Constitutional AI
+- **Formal Invariants** (I2–I7) defining governance boundaries
 
 THEOS is intentionally designed to be:
 - **Complementary** to constitutional and preference-based alignment
@@ -38,10 +43,11 @@ Respectfully,
 
 Frederick Davis Stalnecker  
 Inventor & Systems Architect  
-THEOS Research Institute  
+THEOS Research  
 Email: Frederick.Stalnecker@TheosResearch.org  
+Phone: +1 (615) 642-6643  
 ORCID: 0009-0009-9063-7438  
 
 ---
 
-*Attachments available under NDA upon request.*
+*Full documentation available under NDA upon request.*
