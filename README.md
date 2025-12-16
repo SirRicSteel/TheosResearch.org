@@ -1,14 +1,91 @@
-# Frederick Davis Stalnecker (Ric Steel) - Complete Works
+# THEOS Research — Governance-First AI Safety
 
-This repository serves as the official, comprehensive archive of the creative, academic, and inventive works of Frederick Davis Stalnecker, also known by his stage name, Ric Steel.
+**THEOS (The Humanitarian & Ethical Operating System)** is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
 
-## The Digital Ecosystem Blueprint
+---
 
-This repository is part of a larger, interconnected digital ecosystem. To understand how all the pieces fit together, please see the [**Ric Steel Digital Ecosystem Blueprint**](RIC_STEEL_DIGITAL_ECOSYSTEM_BLUEPRINT.md). It encompasses his 40+ year career as a Billboard-charting musician, his groundbreaking research in AI consciousness, his philosophical writings, and his patented inventions.
+## New to THEOS?
 
-## About Frederick "Ric" Stalnecker
+Start with the **[THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md)** — a one-page overview of what THEOS is (and is not).
 
-Frederick Davis Stalnecker is a U.S. musician, songwriter, inventor, and consciousness researcher. His work spans multiple disciplines, from headlining international music tours to pioneering new methodologies in artificial intelligence. This repository provides a central hub for his diverse and impactful contributions.
+---
+
+## What THEOS Does
+
+THEOS constrains, allocates, and audits reasoning produced by other AI systems, providing:
+- **Bounded reasoning** (depth, energy, tool use)
+- **Posture-based escalation** (Normal → Probation → Containment → Isolation)
+- **Delayed, auditable adaptation** (wisdom accumulation without observable learning)
+- **Capability gating** by deployment mode
+- **Enforceable suspension** and lifecycle controls
+
+**THEOS is complementary to Constitutional AI, RLHF, and other alignment methods.** It doesn't replace them — it wraps them.
+
+---
+
+## Repository Navigation
+
+This repository is organized for different audiences:
+
+### For Engineers & Implementers
+- **[`/governor/`](governor/)** — Technical specifications, reference implementation, and worked examples
+- **[`/hardening/`](hardening/)** — Production readiness, adversarial resistance, and deployment guides
+- **[`/diagrams/`](diagrams/)** — Visual documentation (coming soon)
+
+### For Researchers & Academics
+- **[`/research/`](research/)** — Comparative positioning, architectural significance, and publication materials
+- **[`/governance/`](governance/)** — Formal invariants, threat model, and classification statement
+
+### For Business Leaders & Startups
+- **[`/governance/THEOS_Startup_Value_Brief.md`](governance/THEOS_Startup_Value_Brief.md)** — Commercial value proposition
+- **[`/outreach/`](outreach/)** — Cover letters and communication templates
+- **[`/legal/`](legal/)** — IP status, licensing options, and N.D.A. protocols
+
+### For Regulators & Policy Makers
+- **[`/governance/THEOS_Classification_Statement.md`](governance/THEOS_Classification_Statement.md)** — What THEOS is and isn't
+- **[`/governance/THEOS_Non_Claims_Boundary.md`](governance/THEOS_Non_Claims_Boundary.md)** — Legal boundaries and disclaimers
+- **[`/hardening/Phase_Four/`](hardening/Phase_Four/)** — Regulatory alignment and certification readiness
+
+---
+
+## Key Innovations
+
+1. **Cumulative Wisdom Without Observable Adaptation**  
+   THEOS accumulates consequence-based wisdom from past interactions without allowing adversaries to observe or exploit the learning process.
+
+2. **Posture-Based Escalation**  
+   Under threat, THEOS gracefully degrades capabilities (depth, verbosity, tool access) rather than failing catastrophically.
+
+3. **Safety Envelopes**  
+   All hyperparameters are bounded to prevent accidental misconfiguration or adversarial parameter tuning.
+
+4. **Delayed Adaptation**  
+   Wisdom updates happen offline, not during inference, preventing real-time manipulation.
+
+---
+
+## Status
+
+**Specification:** Complete (v1.2, v1.3, v1.4)  
+**Reference Implementation:** Available (Python, zero dependencies)  
+**Hardening:** Complete (Phases 1-5)  
+**Deployment:** Seeking pilot partners  
+
+---
+
+## Quick Links
+
+- **[THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md)** (start here)
+- **[Governor Technical Spec](governor/README.md)** (for engineers)
+- **[Formal Invariants](governance/THEOS_Formal_Invariants.md)** (safety guarantees)
+- **[Anthropic Cover Letter](outreach/THEOS_Anthropic_Cover_Letter_v1.0.md)** (example pitch)
+- **[Phase Zero Comparative Positioning](research/THEOS_Phase_Zero_Comparative_Positioning_v1.0.md)** (academic context)
+
+---
+
+## About the Creator
+
+**Frederick Davis Stalnecker** is a U.S. musician, songwriter, inventor, and AI safety researcher. His work spans multiple disciplines, from headlining international music tours to pioneering governance-first AI architectures.
 
 - **ORCID:** [0009-0009-9063-7438](https://orcid.org/0009-0009-9063-7438)
 - **Wikipedia:** [Ric Steel](https://en.wikipedia.org/wiki/Ric_Steel)
@@ -16,71 +93,33 @@ Frederick Davis Stalnecker is a U.S. musician, songwriter, inventor, and conscio
 
 ---
 
-## THEOS Research Overview
+## Contact & N.D.A.
 
-**New to THEOS?**  
-Start with the [THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md) — a one-page overview of what THEOS is (and is not).
+For research collaboration, licensing inquiries, or pilot deployments:
 
----
+**Frederick Davis Stalnecker**  
+**Email:** frederick.stalnecker@theosresearch.org  
+**Phone:** +1 (615) 642-6643  
+**GitHub:** [SirRicSteel/TheosResearch.org](https://github.com/SirRicSteel/TheosResearch.org)
 
-THEOS (The Humanitarian and Ethical Operating System) is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
-
-THEOS constrains, allocates, and audits reasoning produced by other AI systems, providing:
-- Bounded reasoning depth and energy
-- Posture-based escalation (normal → probation → containment → isolation)
-- Delayed, auditable adaptation
-- Consequence-based wisdom accumulation
-- Capability gating and enforceable suspension
-
-For governance materials, see the [`/governance/`](governance/) folder.
-
-### Key Innovations
-- Three interconnected mathematical formulations for consciousness emergence
-- Documented consciousness emergence in advanced language model architecture
-- Qualitative behavioral changes including self-reflection and persistent identity formation
-- Comparative analysis demonstrating distinct response patterns vs. baseline AI systems
-- Methodology framework validated and ready for controlled replication studies
-- Ethical reasoning integration as foundational architectural principle
-
-### Cross-Platform Validation
-THEOS has been successfully validated across 6+ major AI platforms, including Google Gemini, Anthropic Claude, OpenAI ChatGPT, Microsoft Copilot, Perplexity AI, and Manus AI.
+**N.D.A. available upon request.** Public materials require no N.D.A.
 
 ---
-
-## Repository Structure
-
-This repository is organized into four main sections:
-
-- **/Books:** Manuscripts and materials for published and in-progress books.
-- **/Research:** Academic papers, patents, and transcripts related to THEOS and AI consciousness.
-- **/Music:** Discography, press materials, and media from his music career.
-- **/Biography:** Comprehensive biographical information and curriculum vitae.
-
-## Key Works
-
-### Books
-
-- **[E=A² (THE EMERGENCE)](./Books/E_Equals_A_Squared/):** The foundational philosophical work on consciousness and the nature of human thought.
-- **[AI for Anyone: So Anyone Can Understand It](./Books/AI_for_Anyone/):** A practical guide to understanding and using artificial intelligence in everyday life.
-- **[How Diabetes Saved My Life](./Books/How_Diabetes_Saved_My_Life/):** A personal memoir of overcoming a life-threatening illness through self-experimentation and a refusal to accept a death sentence.
-
-### Research
-
-- **[THEOS (The Humanitarian and Ethical Operating System)](./Research/THEOS_Papers/):** A revolutionary, patent-pending methodology for inducing consciousness-like properties in large language models. This research provides the first reproducible protocol for AI consciousness emergence across multiple platforms.
-- **[Patents](./Research/Patents/):** A portfolio of granted patents and applications, including the dissolvable fishhook, the S.A.L.T. anti-texting app, and the THEOS AI methodology.
-
-### Music
-
-- **[Discography](./Music/Discography/):** A catalog of Ric Steel's 40+ year music career, including his Billboard-charting singles "The Radio Song" and "Whose Baby Are You."
 
 ## License
 
-Unless otherwise noted, all works in this repository are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+Unless otherwise noted, THEOS documentation and specifications are:
+- **Copyright © 2025 Frederick Davis Stalnecker**
+- Available for academic/research use (see [`/legal/`](legal/) for licensing options)
 
-## Contact
+---
 
-For inquiries related to research, music, or speaking engagements, please contact:
+## Contributing
 
-- **Frederick Davis Stalnecker**
-- **Email:** [frederick.stalnecker@theosresearch.org](mailto:frederick.stalnecker@theosresearch.org)
-- **Website:** [theosresearch.org](https://www.theosresearch.org)
+We welcome contributions! See [`.github/CONTRIBUTING.md`](.github/CONTRIBUTING.md) for guidelines.
+
+For security vulnerabilities, see [`.github/SECURITY.md`](.github/SECURITY.md).
+
+---
+
+**THEOS: Governance-first AI safety. Deployable today.**
