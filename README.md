@@ -6,7 +6,9 @@
 
 ## New to THEOS?
 
-Start with the **[THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md)** — a one-page overview of what THEOS is (and is not).
+**Start here:** [THEOS Foundational Clarifications](governance/THEOS_Foundational_Clarifications.md) — the authoritative definition of THEOS, formal invariants, and non-claims boundary.
+
+**Quick orientation:** [THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md) — a one-page overview for busy executives.
 
 ---
 
