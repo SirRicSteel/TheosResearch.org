@@ -38,7 +38,7 @@
 
 **Key Insight:** THEOS governs AI behavior **without** modifying model weights, requiring retraining, or claiming consciousness.
 
-**Analogy:** THEOS is like a "safety supervisor" that watches AI interactions and adjusts constraints based on accumulated wisdom from past consequences.
+**Analogy:** Think of the THEOS Governor as a **thermostat for AI safety**—it monitors risk signals and automatically adjusts constraints to keep the system operating within safe boundaries. Like a spam filter that learns from consequences (not consciousness), THEOS accumulates wisdom from past interactions without subjective experience.
 
 ---
 
