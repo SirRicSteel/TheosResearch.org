@@ -17,9 +17,18 @@ These materials define what THEOS is, what it guarantees, and how it should be d
 
 ---
 
+### 2. **[THEOS Functional Time](THEOS_Functional_Time.md)** 🔑 **CORE CONCEPT**
+**The philosophical foundation of THEOS.** Explains how temporal governance enables AI accountability without requiring consciousness.
+
+**Audience:** Researchers, philosophers, policy makers  
+**Length:** 5 minutes  
+**Purpose:** Explains why THEOS's approach is philosophically valid and non-anthropomorphic
+
+---
+
 ## Core Governance Documents
 
-### 2. **[THEOS Quick Reference](00_THEOS_Quick_Reference.md)**
+### 3. **[THEOS Quick Reference](00_THEOS_Quick_Reference.md)**
 One-page overview for busy executives and first-time visitors.
 
 **Audience:** Executives, regulators, journalists  
@@ -28,7 +37,7 @@ One-page overview for busy executives and first-time visitors.
 
 ---
 
-### 3. **[THEOS Formal Invariants](THEOS_Formal_Invariants.md)**
+### 4. **[THEOS Formal Invariants](THEOS_Formal_Invariants.md)**
 The eight non-negotiable governance guarantees (I1-I8).
 
 **Audience:** Engineers, researchers, auditors  
@@ -37,7 +46,7 @@ The eight non-negotiable governance guarantees (I1-I8).
 
 ---
 
-### 4. **[THEOS Classification Statement](THEOS_Classification_Statement.md)**
+### 5. **[THEOS Classification Statement](THEOS_Classification_Statement.md)**
 What THEOS is and isn't — prevents regulatory and media misclassification.
 
 **Audience:** Legal, PR, regulators  
@@ -46,7 +55,7 @@ What THEOS is and isn't — prevents regulatory and media misclassification.
 
 ---
 
-### 5. **[THEOS Non-Claims Boundary](THEOS_Non_Claims_Boundary.md)**
+### 6. **[THEOS Non-Claims Boundary](THEOS_Non_Claims_Boundary.md)**
 Explicit statement of what THEOS does **not** claim (consciousness, agency, autonomy, etc.).
 
 **Audience:** Legal, regulators, philosophers  
@@ -55,7 +64,7 @@ Explicit statement of what THEOS does **not** claim (consciousness, agency, auto
 
 ---
 
-### 6. **[THEOS Threat Model Overview](THEOS_Threat_Model_Overview.md)**
+### 7. **[THEOS Threat Model Overview](THEOS_Threat_Model_Overview.md)**
 Summary of threats THEOS addresses and how it responds.
 
 **Audience:** Security teams, red teams, researchers  

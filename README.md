@@ -8,6 +8,8 @@
 
 **Start here:** [THEOS Foundational Clarifications](governance/THEOS_Foundational_Clarifications.md) — the authoritative definition of THEOS, formal invariants, and non-claims boundary.
 
+**Core concept:** [THEOS Functional Time](governance/THEOS_Functional_Time.md) — how temporal governance enables AI accountability without consciousness.
+
 **Quick orientation:** [THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md) — a one-page overview for busy executives.
 
 ---
