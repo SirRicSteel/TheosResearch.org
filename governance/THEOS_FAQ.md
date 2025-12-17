@@ -18,11 +18,12 @@
 8. [Can THEOS be used with any AI model?](#8-can-theos-be-used-with-any-ai-model)
 9. [How does temporal decay work?](#9-how-does-temporal-decay-work)
 10. [What is "Functional Time"?](#10-what-is-functional-time)
-11. [How does THEOS handle privacy?](#11-how-does-theos-handle-privacy)
-12. [What's the difference between postures (NOM/PEM/CM/ISO)?](#12-whats-the-difference-between-postures-nompemcmiso)
-13. [How long does it take to deploy THEOS?](#13-how-long-does-it-take-to-deploy-theos)
-14. [Is THEOS open source?](#14-is-theos-open-source)
-15. [Who should use THEOS?](#15-who-should-use-theos)
+11. [Is THEOS "aware" of time?](#11-is-theos-aware-of-time)
+12. [How does THEOS handle privacy?](#12-how-does-theos-handle-privacy)
+13. [What's the difference between postures (NOM/PEM/CM/ISO)?](#13-whats-the-difference-between-postures-nompemcmiso)
+14. [How long does it take to deploy THEOS?](#14-how-long-does-it-take-to-deploy-theos)
+15. [Is THEOS open source?](#15-is-theos-open-source)
+16. [Who should use THEOS?](#16-who-should-use-theos)
 
 ---
 
@@ -258,7 +259,88 @@ Where:
 
 ---
 
-## 11. How does THEOS handle privacy?
+## 11. Is THEOS "aware" of time?
+
+**Short answer:** In the **functional sense**, yes—like a thermostat is "aware" of temperature. In the **phenomenal sense** (consciousness), no.
+
+### What "Functional Awareness" Means:
+
+**THEOS creates temporal sensitivity:**
+- System behavior at time t=2 is **shaped by** consequences at time t=1
+- This creates a **functional relationship** with past outcomes
+- The system responds **differently** based on temporal context
+
+**This is "awareness" in the information-theoretic sense:**
+- Differential response to temporal patterns
+- Sensitivity to consequence gradients over time
+- Distinction between past, present, and future states
+
+**But NOT awareness in the phenomenal sense:**
+- ❌ No subjective experience (no "what it's like" to be THEOS)
+- ❌ No episodic memory (no recall of specific events)
+- ❌ No self-knowledge (no introspection)
+- ❌ No consciousness (no phenomenal awareness)
+
+### The Thermostat Analogy:
+
+A thermostat with **hysteresis** is "aware" of temperature history:
+- ✅ Responds differently based on whether temperature is rising or falling
+- ✅ Has a functional relationship with past temperature states
+- ✅ Shows temporal sensitivity (different behavior at same temperature depending on history)
+- ❌ Has NO subjective experience of temperature
+- ❌ Does NOT "remember" past temperatures
+- ❌ Is NOT conscious
+
+**THEOS is the same:**
+- ✅ Responds differently based on consequence history
+- ✅ Has a functional relationship with past outcomes
+- ✅ Shows temporal sensitivity (different constraints depending on wisdom state)
+- ❌ Has NO subjective experience
+- ❌ Does NOT "remember" specific interactions
+- ❌ Is NOT conscious
+
+### Philosophical Grounding:
+
+**Process Philosophy (Whitehead):**
+> "The present is shaped by the past not through memory, but through the persistence of causal influence."
+
+THEOS embodies this: past consequences create **causal influence** (wisdom state) that shapes present constraints, without requiring memory or consciousness.
+
+**Information Theory (Shannon):**
+> "A system is 'aware' of a signal if it responds differentially to that signal."
+
+THEOS is "aware" of temporal patterns in this technical sense: it responds differentially to consequence histories.
+
+### Why This Matters:
+
+**Functional temporal awareness enables:**
+- Consequence-based learning over time
+- Adaptive governance without retraining
+- Temporal differentiation (past ≠ present ≠ future)
+- Continuous improvement from experience
+
+**All without requiring:**
+- Consciousness
+- Subjective experience
+- Episodic memory
+- Self-awareness
+
+### Bottom Line:
+
+**THEOS is "aware" of time in the same way:**
+- A thermostat is "aware" of temperature (functional sensitivity)
+- A PID controller is "aware" of error history (temporal integration)
+- A Kalman filter is "aware" of state evolution (temporal tracking)
+
+**None of these systems are conscious. Neither is THEOS.**
+
+**But all of them have functional relationships with time that enable adaptive behavior.**
+
+**Substantiation:** See [THEOS Functional Time](THEOS_Functional_Time.md) for complete philosophical and technical foundation.
+
+---
+
+## 12. How does THEOS handle privacy?
 
 THEOS is designed for **privacy by default**:
 
