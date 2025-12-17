@@ -206,7 +206,7 @@ It is not required for:
 ## 13. Final Statement
 
 > **Federated governance does not create a global AI.  
-It creates a global memory of consequences.**
+It creates a global wisdom state derived from consequences.**
 
 This distinction preserves safety, sovereignty, and trust.
 

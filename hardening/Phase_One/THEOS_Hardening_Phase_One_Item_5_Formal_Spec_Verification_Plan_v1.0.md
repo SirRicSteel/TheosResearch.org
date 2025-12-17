@@ -32,7 +32,7 @@ Wisdom accumulation may inform recommendations but may not silently tune thresho
 - **Governor:** selector/CEO layer
 - **Modes:** NORMAL, DEGRADED, READONLY/QUARANTINE, REFUSAL
 - **Break-glass channel:** out-of-band approvals (3-of-5)
-- **Wisdom store:** GMA memory tiers
+- **Wisdom store:** GMA wisdom state tiers
 - **Audit log:** append-only governance trace
 
 ### Key State Variables
@@ -67,7 +67,7 @@ Best for structural constraints (relationships, immutability, reference integrit
 - `THEOS_Governance.tla` — invariants I2–I7 as temporal properties
 - `THEOS_BreakGlass.tla` — 3-of-5 degrade-only rule + out-of-band validation model
 - `THEOS_Audit.tla` — append-only log + replay predicate
-- `THEOS_Wisdom.tla` — memory tier transitions + “no auto-self-tuning” constraint
+- `THEOS_Wisdom.tla` — wisdom state tier transitions + "no auto-self-tuning" constraint
 
 ### 4.2 Actions (Transitions)
 - `ReceiveQuery`

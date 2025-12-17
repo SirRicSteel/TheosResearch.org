@@ -126,7 +126,7 @@ THEOS explicitly addresses:
 - Adversarial probing → posture escalation  
 - Gradient / feedback extraction → delayed adaptation  
 - Slow-roll manipulation → cumulative wisdom  
-- Memory poisoning → bounded, validated memory  
+- Memory poisoning → bounded, validated wisdom state  
 - Silent governance drift → configuration integrity  
 
 **Explicit bias:**  

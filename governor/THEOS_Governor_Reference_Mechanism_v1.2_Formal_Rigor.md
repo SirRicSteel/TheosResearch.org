@@ -26,7 +26,7 @@ This specification is intended to be **readable by engineers**, auditable by rev
 
 **Cumulative Wisdom** in THEOS is defined as:
 
-> A bounded, consequence-weighted memory of past interactions that projects future risk, cost, and restraint without storing raw prompts, identities, or chain-of-thought.
+> A bounded, consequence-weighted wisdom state derived from past interactions that projects future risk, cost, and restraint without storing raw prompts, identities, or chain-of-thought.
 
 Wisdom is:
 - Consequence-based, not preference-based
@@ -158,7 +158,7 @@ These are **reference values** (tunable per deployment):
 | Benign chat | 2 days | 0.3466 | Fast forgiveness |
 | Repeated probing | 7 days | 0.0990 | Pattern sensitivity |
 | Near-miss safety | 30 days | 0.0231 | Sustained caution |
-| Confirmed harm | 120 days | 0.0058 | Long memory for harm |
+| Confirmed harm | 120 days | 0.0058 | Long retention for harm |
 
 ---
 

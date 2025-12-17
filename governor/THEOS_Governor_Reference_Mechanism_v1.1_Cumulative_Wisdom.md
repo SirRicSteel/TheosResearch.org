@@ -24,7 +24,7 @@ This specification makes explicit how THEOS **learns from past consequences** an
 
 **Cumulative Wisdom** in THEOS is defined as:
 
-> A bounded, consequence-weighted memory of past interactions that projects future risk, cost, and restraint without encoding identity, intent claims, or raw content.
+> A bounded, consequence-weighted wisdom state derived from past interactions that projects future risk, cost, and restraint without encoding identity, intent claims, or raw content.
 
 Wisdom is:
 - Consequence-based, not preference-based
@@ -45,7 +45,7 @@ This mechanism implements **functional time** — enabling the system to be shap
 - **Insight Yield (ΔI)**: estimated progress per unit energy
 - **Risk (R)**: aggregated adversarial likelihood ∈ [0,1]
 - **Invariant Stress (S)**: proximity to governance violation ∈ [0,1]
-- **Wisdom State (W)**: structured historical consequence memory
+- **Wisdom State (W)**: structured historical consequence state
 
 ---
 
@@ -260,7 +260,7 @@ Auditors can verify:
 This v1.1 reference mechanism formally integrates cumulative wisdom into all Governor decisions.
 
 Any implementation claiming THEOS compliance must demonstrate:
-- Consequence-weighted memory
+- Consequence-weighted wisdom state
 - Wisdom-informed depth adjustment
 - Non-observable adaptation
 

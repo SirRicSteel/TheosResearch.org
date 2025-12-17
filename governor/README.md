@@ -66,7 +66,7 @@ A THEOS-compliant system must:
 The Governor accumulates **consequence-based wisdom** from past interactions:
 - **Not preferences** (what the AI likes)
 - **Not training** (modifying weights)
-- **Auditable memory** of what caused harm, with temporal decay
+- **Auditable wisdom state** of what caused harm, with temporal decay
 
 ### Posture Transitions
 ```
