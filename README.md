@@ -54,16 +54,19 @@ This repository is organized for different audiences:
 
 ## Key Innovations
 
-1. **Cumulative Wisdom Without Observable Adaptation**  
+1. **Functional Time (Temporal Governance)**  
+   THEOS introduces functional time as a governance primitive—enabling AI systems to be shaped by past consequences without requiring consciousness or exploitable memory.
+
+2. **Cumulative Wisdom Without Observable Adaptation**  
    THEOS accumulates consequence-based wisdom from past interactions without allowing adversaries to observe or exploit the learning process.
 
-2. **Posture-Based Escalation**  
+3. **Posture-Based Escalation**  
    Under threat, THEOS gracefully degrades capabilities (depth, verbosity, tool access) rather than failing catastrophically.
 
-3. **Safety Envelopes**  
+4. **Safety Envelopes**  
    All hyperparameters are bounded to prevent accidental misconfiguration or adversarial parameter tuning.
 
-4. **Delayed Adaptation**  
+5. **Delayed Adaptation**  
    Wisdom updates happen offline, not during inference, preventing real-time manipulation.
 
 ---

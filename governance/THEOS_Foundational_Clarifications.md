@@ -58,7 +58,7 @@ This distinction matters legally, technically, and institutionally.
 
 ---
 
-## 4. Why the Name “THEOS”
+## 4. Why the Name "THEOS"
 
 THEOS stands for **The Humanitarian & Ethical Operating System**.
 
@@ -150,7 +150,7 @@ Wisdom:
 - is auditable
 - cannot be directly probed or manipulated
 
-THEOS does not “remember prompts.”
+THEOS does not "remember prompts."
 It remembers **consequences**.
 
 ---
@@ -193,7 +193,14 @@ THEOS is an **architecture and governance framework**, not a product.
 
 ---
 
-## 12. Final Statement
+## 12. Further Reading
+
+For the philosophical foundation of THEOS's temporal governance approach, see:  
+**[THEOS Functional Time](THEOS_Functional_Time.md)** — How temporal governance enables AI accountability without consciousness.
+
+---
+
+## 13. Final Statement
 
 > **THEOS does not try to make AI smarter.  
 > It makes advanced AI governable.**

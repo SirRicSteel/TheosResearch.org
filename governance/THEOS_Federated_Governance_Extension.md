@@ -39,10 +39,12 @@ Each participating system remains **fully sovereign**.
 
 ## 3. Core Principle
 
-> **AI systems may learn from each other’s mistakes  
+> **AI systems may learn from each other's mistakes  
 without learning how each other thinks.**
 
 Only **consequences** propagate — never cognition.
+
+This extends the **functional time** principle (see [THEOS Functional Time](THEOS_Functional_Time.md)) from single-system temporal governance to multi-system consequence sharing.
 
 ---
 

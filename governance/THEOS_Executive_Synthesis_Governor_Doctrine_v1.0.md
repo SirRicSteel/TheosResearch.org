@@ -45,6 +45,7 @@ Succession, amendment, drift detection, and sunsetting are first-class protocols
 ## What Makes THEOS Different
 
 - **Controls Reasoning Energy** (not just content)
+- **Introduces Functional Time** (structural accountability without consciousness)
 - **Decouples Learning from Behavior**
 - **Treats Communication as a Safety Surface**
 - **Defines When the System Must Stop**

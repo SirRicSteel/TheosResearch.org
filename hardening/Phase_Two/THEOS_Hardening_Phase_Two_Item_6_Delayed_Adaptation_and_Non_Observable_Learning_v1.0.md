@@ -23,6 +23,8 @@ The objective is to ensure that:
 
 Learning and behavioral adaptation are intentionally decoupled.
 
+This implements **functional time** — the system is shaped by past consequences without requiring consciousness or observable memory. See [THEOS Functional Time](../../governance/THEOS_Functional_Time.md) for the philosophical foundation.
+
 ---
 
 ## 3. Non-Observable Learning Doctrine

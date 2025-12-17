@@ -9,7 +9,7 @@ Mitigated via posture escalation and non-signaling throttles.
 Blocked by delayed, non-observable adaptation.
 
 ### Slow-Roll Manipulation
-Countered by cumulative wisdom with long half-lives for harm.
+Countered by cumulative wisdom with long half-lives for harm. THEOS uses **functional time** to enable consequence-based learning without exposing exploitable memory or requiring consciousness.
 
 ### Memory Poisoning
 Prevented by bounded wisdom state and offline validation.

@@ -18,6 +18,9 @@ This document provides a **worked numerical example** demonstrating:
 
 The goal is **engineer-testable clarity**: the numbers can be implemented directly in a unit test.
 
+**Philosophical Foundation:**  
+All wisdom accumulation mechanisms implement **functional time** — enabling the system to be shaped by past consequences without requiring consciousness. See [THEOS Functional Time](../governance/THEOS_Functional_Time.md) for the conceptual foundation.
+
 ---
 
 ## 1. Assumptions and Configuration

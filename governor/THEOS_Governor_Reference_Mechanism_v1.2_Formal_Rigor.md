@@ -34,6 +34,9 @@ Wisdom is:
 - Decayed over time (with context-class half-life)
 - Auditable but non-exploitable
 
+**Philosophical Foundation:**  
+This mechanism implements **functional time** — enabling the system to be shaped by past consequences without requiring consciousness or memory of specific interactions. See [THEOS Functional Time](../governance/THEOS_Functional_Time.md) for the conceptual foundation.
+
 ---
 
 ## 2. Definitions and Ranges

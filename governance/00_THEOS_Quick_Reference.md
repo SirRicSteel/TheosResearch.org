@@ -14,6 +14,7 @@ It governs *how* intelligence is applied — not *what* the intelligence is.
 ## What THEOS Does
 - Bounds reasoning depth, energy, and tool use
 - Controls posture (normal → probation → containment → isolation)
+- Introduces **functional time** (past consequences shape future behavior)
 - Delays and audits all adaptation
 - Accumulates **consequence-based wisdom** (not preferences)
 - Enforces capability gating and suspension

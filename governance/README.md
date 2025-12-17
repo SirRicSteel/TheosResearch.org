@@ -122,14 +122,16 @@ Voluntary, federated consequence-sharing across THEOS-compliant systems.
 
 ### For First-Time Visitors
 1. Foundational Clarifications (required)
-2. Quick Reference (orientation)
-3. Classification Statement (clarity)
+2. Functional Time (core concept)
+3. Quick Reference (orientation)
+4. Classification Statement (clarity)
 
 ### For Engineers
 1. Foundational Clarifications (required)
-2. Formal Invariants (technical spec)
-3. Integration Sketch (deployment)
-4. Compliance Audit Criteria (verification)
+2. Functional Time (core concept)
+3. Formal Invariants (technical spec)
+4. Integration Sketch (deployment)
+5. Compliance Audit Criteria (verification)
 
 ### For Business Leaders
 1. Foundational Clarifications (required)
@@ -144,9 +146,10 @@ Voluntary, federated consequence-sharing across THEOS-compliant systems.
 
 ### For Researchers
 1. Foundational Clarifications (required)
-2. Formal Invariants (technical spec)
-3. Threat Model Overview (security analysis)
-4. Federated Governance Extension (advanced concept)
+2. Functional Time (core concept)
+3. Formal Invariants (technical spec)
+4. Threat Model Overview (security analysis)
+5. Federated Governance Extension (advanced concept)
 
 ---
 
@@ -155,6 +158,7 @@ Voluntary, federated consequence-sharing across THEOS-compliant systems.
 | Document | Status | Version | Last Updated |
 |----------|--------|---------|--------------|
 | Foundational Clarifications | ✅ **Canonical** | 1.0 | Dec 16, 2025 |
+| Functional Time | ✅ **Core Concept** | 1.0 | Dec 16, 2025 |
 | Quick Reference | ✅ Final | 1.0 | Dec 16, 2025 |
 | Formal Invariants | ✅ Final | 1.0 | Dec 16, 2025 |
 | Classification Statement | ✅ Final | 1.0 | Dec 16, 2025 |

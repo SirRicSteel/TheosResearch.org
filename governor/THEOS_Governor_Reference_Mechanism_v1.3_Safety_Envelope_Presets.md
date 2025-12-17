@@ -11,11 +11,14 @@
 This update adds a **Parameter Safety Envelope**: conservative, implementable presets per deployment mode.
 
 Goal:
-- Provide safe defaults that prevent “tuning into danger”
+- Provide safe defaults that prevent "tuning into danger"
 - Make configuration changes auditable and bounded
 - Standardize escalation behavior across environments
 
 This document is additive: it retains all v1.2 definitions and mechanisms.
+
+**Philosophical Foundation:**  
+All wisdom accumulation mechanisms implement **functional time** — enabling the system to be shaped by past consequences without requiring consciousness. See [THEOS Functional Time](../governance/THEOS_Functional_Time.md) for the conceptual foundation.
 
 ---
 
