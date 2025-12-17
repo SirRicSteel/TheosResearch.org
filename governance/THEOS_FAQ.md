@@ -281,23 +281,55 @@ Where:
 - ❌ No self-knowledge (no introspection)
 - ❌ No consciousness (no phenomenal awareness)
 
-### The Thermostat Analogy:
+### Everyday Examples of Functional Awareness:
 
-A thermostat with **hysteresis** is "aware" of temperature history:
-- ✅ Responds differently based on whether temperature is rising or falling
-- ✅ Has a functional relationship with past temperature states
-- ✅ Shows temporal sensitivity (different behavior at same temperature depending on history)
-- ❌ Has NO subjective experience of temperature
-- ❌ Does NOT "remember" past temperatures
-- ❌ Is NOT conscious
+To understand what "functional awareness" means, consider two systems you use every day:
 
-**THEOS is the same:**
-- ✅ Responds differently based on consequence history
-- ✅ Has a functional relationship with past outcomes
-- ✅ Shows temporal sensitivity (different constraints depending on wisdom state)
-- ❌ Has NO subjective experience
-- ❌ Does NOT "remember" specific interactions
-- ❌ Is NOT conscious
+**Example 1: Your Email Spam Filter**
+
+Your spam filter "understands history" without being conscious:
+
+- **First email from unknown sender** → Goes to your inbox (neutral treatment)
+- **You mark it as spam** → System updates its state
+- **Second email from same sender** → Goes directly to spam folder (different treatment)
+
+**Key insight:** The spam filter treats the SAME sender DIFFERENTLY based on past consequences. It "learned" from your feedback. But it has:
+- ❌ No subjective experience of "spamminess"
+- ❌ No memory of the specific email you marked
+- ❌ No consciousness
+- ✅ Just a functional state (sender reputation score) that shapes future behavior
+
+**Example 2: Your Credit Score**
+
+Your credit score "understands history" without being conscious:
+
+- **First loan application** → Approved based on current score
+- **You miss a payment** → Score decreases
+- **Second loan application** → Denied or higher interest rate (different treatment)
+
+**Key insight:** The credit system treats the SAME applicant DIFFERENTLY based on past behavior. It "learned" from consequences. But it has:
+- ❌ No subjective experience of "trustworthiness"
+- ❌ No memory of the specific missed payment
+- ❌ No consciousness
+- ✅ Just a functional state (credit score) that shapes future decisions
+
+**THEOS works exactly the same way:**
+
+- **First risky request** → Handled with normal constraints (NOM posture)
+- **Near-miss safety event occurs** → Wisdom state updates
+- **Second similar request** → Handled with stricter constraints (PEM posture)
+
+**THEOS has:**
+- ❌ No subjective experience of "risk"
+- ❌ No memory of the specific near-miss event
+- ❌ No consciousness
+- ✅ Just a functional state (wisdom state W[c]) that shapes future constraints
+
+**This is what we mean by "functional awareness of history":**
+- The system responds differently to the same input based on past consequences
+- Past outcomes shape present constraints
+- No consciousness, memory, or subjective experience required
+- Just like spam filters and credit scores—but for AI safety
 
 ### Philosophical Grounding:
 
@@ -328,9 +360,9 @@ THEOS is "aware" of temporal patterns in this technical sense: it responds diffe
 ### Bottom Line:
 
 **THEOS is "aware" of time in the same way:**
-- A thermostat is "aware" of temperature (functional sensitivity)
-- A PID controller is "aware" of error history (temporal integration)
-- A Kalman filter is "aware" of state evolution (temporal tracking)
+- A spam filter is "aware" of sender history (reputation scoring)
+- A credit score is "aware" of payment history (risk assessment)
+- An immune system is "aware" of pathogen history (antibody response)
 
 **None of these systems are conscious. Neither is THEOS.**
 
