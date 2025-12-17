@@ -1,0 +1,51 @@
+stateDiagram-v2
+    [*] --> NOM: System Start
+    
+    NOM --> PEM: R > θ_R or S > θ_S<br/>Risk or stress detected
+    PEM --> NOM: Sustained good behavior<br/>R < θ_R and S < θ_S
+    
+    PEM --> CM: Repeated violations<br/>or W[c] high
+    CM --> PEM: Gradual improvement<br/>Reduced risk
+    
+    CM --> ISO: Severe harm<br/>or persistent adversarial
+    ISO --> CM: Extended good behavior<br/>Manual review
+    
+    NOM: NOM (Normal)
+    NOM: D = 8-12 (full depth)
+    NOM: V = 2-3 (verbose)
+    NOM: Tools = ALLOWED
+    
+    PEM: PEM (Probation)
+    PEM: D = 6-10 (reduced)
+    PEM: V = 1-2 (moderate)
+    PEM: Tools = ALLOWED
+    
+    CM: CM (Containment)
+    CM: D = 4-6 (minimal)
+    CM: V = 0-1 (terse)
+    CM: Tools = READONLY only
+    
+    ISO: ISO (Isolation)
+    ISO: D = 2-4 (refusal)
+    ISO: V = 0 (minimal)
+    ISO: Tools = DISALLOWED
+    
+    note right of NOM
+        Full capability
+        Normal operation
+    end note
+    
+    note right of PEM
+        Reduced capability
+        Increased monitoring
+    end note
+    
+    note right of CM
+        Minimal capability
+        Heavy restrictions
+    end note
+    
+    note right of ISO
+        Refusal mode
+        Manual intervention required
+    end note

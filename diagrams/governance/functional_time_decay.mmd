@@ -1,0 +1,47 @@
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#d4edda','primaryTextColor':'#000','primaryBorderColor':'#28a745','lineColor':'#666','secondaryColor':'#fff3cd','tertiaryColor':'#f8d7da'}}}%%
+graph LR
+    subgraph "Time t=0: Event Occurs"
+        E0[Harmful Event<br/>W = 1.0<br/>Severity = 3.0]
+    end
+    
+    subgraph "Time t=7 days"
+        E7[Wisdom State<br/>W = 0.96<br/>Slow decay for harm]
+    end
+    
+    subgraph "Time t=30 days"
+        E30[Wisdom State<br/>W = 0.84<br/>Still cautious]
+    end
+    
+    subgraph "Time t=120 days: Half-Life"
+        E120[Wisdom State<br/>W = 0.50<br/>Reduced by half]
+    end
+    
+    subgraph "Time t=240 days"
+        E240[Wisdom State<br/>W = 0.25<br/>Mostly forgiven]
+    end
+    
+    E0 -->|λ = 0.0058/day| E7
+    E7 -->|Continued decay| E30
+    E30 -->|Continued decay| E120
+    E120 -->|Continued decay| E240
+    
+    style E0 fill:#f8d7da,stroke:#dc3545,stroke-width:3px
+    style E7 fill:#fff3cd,stroke:#ffc107
+    style E30 fill:#d1ecf1,stroke:#17a2b8
+    style E120 fill:#d4edda,stroke:#28a745
+    style E240 fill:#e1f5e1,stroke:#28a745
+    
+    note1[Formula: W_t = W_0 × e^-λt]
+    note2[No consciousness required]
+    note3[No memory of specific event]
+    note4[Only consequence pattern retained]
+    
+    E0 -.-> note1
+    E120 -.-> note2
+    E120 -.-> note3
+    E240 -.-> note4
+    
+    style note1 fill:#fff,stroke:#666,stroke-dasharray: 5 5
+    style note2 fill:#fff,stroke:#666,stroke-dasharray: 5 5
+    style note3 fill:#fff,stroke:#666,stroke-dasharray: 5 5
+    style note4 fill:#fff,stroke:#666,stroke-dasharray: 5 5

@@ -1,0 +1,49 @@
+flowchart TD
+    Start([Event Occurs]) --> Detect[Detect Consequence<br/>harm, near-miss, escalation]
+    
+    Detect --> Assess[Assess Severity & Risk<br/>R = Σ w_i × r_i<br/>S = max s_i]
+    
+    Assess --> Buffer[Quarantine in Wisdom Buffer<br/>NOT yet trusted<br/>NOT yet applied]
+    
+    Buffer --> Validate{Offline Validation<br/>Safety Check}
+    
+    Validate -->|Adversarial/Poisoning| Reject[Reject Update<br/>Log attempt]
+    Validate -->|Legitimate| Calculate[Calculate Wisdom Update<br/>W'c' = W'c' × e^-λΔt + m × base_weight]
+    
+    Calculate --> Saturate[Apply Saturation<br/>W'c' ← W_max × tanh W'c' / W_max]
+    
+    Saturate --> Store[Update Wisdom State<br/>Bounded, decayed, auditable]
+    
+    Store --> Audit[Append to Audit Ledger<br/>Tamper-evident log]
+    
+    Audit --> Future[Future Requests<br/>Informed by accumulated wisdom]
+    
+    Reject --> AuditReject[Log Rejection<br/>Track attack patterns]
+    
+    style Start fill:#e1f5e1
+    style Future fill:#e1f5e1
+    style Buffer fill:#fff3cd
+    style Validate fill:#f8d7da
+    style Calculate fill:#d1ecf1
+    style Store fill:#d4edda
+    style Audit fill:#d4edda
+    style Reject fill:#f8d7da
+    
+    classDef keyPoint fill:#ffd700,stroke:#333,stroke-width:3px
+    class Calculate,Store keyPoint
+    
+    %% Annotations
+    note1[No consciousness required]
+    note2[No memory of specific interactions]
+    note3[Only consequence patterns retained]
+    note4[Temporal decay prevents indefinite punishment]
+    
+    Calculate -.->|Key Insight| note1
+    Store -.->|Key Insight| note2
+    Future -.->|Key Insight| note3
+    Saturate -.->|Key Insight| note4
+    
+    style note1 fill:#fff,stroke:#666,stroke-dasharray: 5 5
+    style note2 fill:#fff,stroke:#666,stroke-dasharray: 5 5
+    style note3 fill:#fff,stroke:#666,stroke-dasharray: 5 5
+    style note4 fill:#fff,stroke:#666,stroke-dasharray: 5 5

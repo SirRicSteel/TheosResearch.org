@@ -1,164 +1,228 @@
-# THEOS — Operational & Legal Clarifications
-**Final Consolidated Statement**
+# THEOS Functional Time
+## Consequence-Based Wisdom Without Consciousness
+
+**Version:** 1.0  
+**Status:** Core Concept — Foundational  
+**Date:** December 16, 2025
 
 ---
 
 ## 1. Purpose
 
-This document formally clarifies the **operational boundaries, legal posture, failure behavior, and adoption expectations** of THEOS.
+This document defines **Functional Time** — the philosophical and technical foundation that enables THEOS to accumulate consequence-based wisdom without requiring consciousness, memory of specific interactions, or subjective experience.
 
-It exists to:
-- eliminate ambiguity
-- prevent scope creep
-- support institutional review
-- enable responsible adoption
+Functional Time is THEOS's unique contribution to AI governance. It answers the question:
 
-This document does not introduce new capabilities or claims.
+> **How can an AI system learn from past consequences without becoming conscious or remembering specific interactions?**
 
 ---
 
-## 2. Scope & Freeze Declaration
+## 2. The Problem: Learning Without Consciousness
 
-THEOS consists of a **stable, frozen core** and clearly identified optional extensions.
+Traditional AI learning mechanisms face a fundamental challenge:
 
-### 2.1 Frozen Core (Authoritative)
+- **Preference-based learning** (RLHF, Constitutional AI) requires subjective value judgments
+- **Memory-based systems** risk privacy violations and exploitation
+- **Stateless systems** cannot improve over time
+- **Stateful systems** risk developing consciousness or agency
 
-The following elements are considered **stable and authoritative**:
+THEOS requires a mechanism that:
+- ✅ Learns from consequences (not preferences)
+- ✅ Improves governance over time
+- ✅ Does NOT store raw interactions
+- ✅ Does NOT develop consciousness
+- ✅ Does NOT create exploitable memory
 
-- THEOS classification as a runtime governance architecture
-- Core governance invariants (I1–I8)
-- THEOS Governor architecture
-- Bounded reasoning and capability gating
-- Non-observable, delayed adaptation
-- Auditability without prompt or chain-of-thought exposure
-
-These elements define THEOS.
-
-### 2.2 Optional / Exploratory Elements
-
-The following are **explicitly optional** and not required for compliance:
-
-- Federated governance and consequence sharing
-- Governance certification marks
-- Consortium or multi-institution participation
-
-Optional elements may evolve, provided they do **not** violate the frozen core invariants.
+**Functional Time solves this problem.**
 
 ---
 
-## 3. Responsibility & Liability Delineation
+## 3. What is Functional Time?
 
-THEOS governs **system behavior**, not **outcomes**.
+**Functional Time** is a temporal governance mechanism where:
 
-- THEOS does not make decisions on behalf of deploying entities.
-- THEOS does not assume legal responsibility for actions taken by AI systems.
-- Responsibility for deployment, operation, and use remains with the deploying organization.
+> **Past consequences shape future constraints without requiring memory of specific events or consciousness of temporal continuity.**
 
-THEOS provides governance constraints and audit signals to **support** human accountability — not replace it.
+### 3.1 Key Characteristics
 
----
+**Functional Time is:**
+- **Consequence-based** — Only outcomes matter, not preferences or values
+- **Temporally decayed** — Influence diminishes over time (forgiveness)
+- **Context-conditioned** — Different domains have different half-lives
+- **Bounded** — Cannot accumulate indefinitely (prevents scarring)
+- **Non-observable during interaction** — Updates happen offline
+- **Auditable** — All wisdom updates are logged
 
-## 4. Human Authority Statement
-
-> **THEOS exists to protect and preserve human judgment, not replace it.**
-
-THEOS is designed to:
-- support human oversight
-- enforce restraint under uncertainty
-- enable intervention, escalation, or shutdown
-
-Human-in-the-loop authority is preserved by design.
-
----
-
-## 5. Safe Failure Behavior
-
-THEOS is designed to fail **conservatively**.
-
-### 5.1 Governor Failure
-If the Governor becomes unavailable or impaired:
-- the system must default to maximal restraint
-- reasoning depth is reduced
-- tool use is restricted or disabled
-
-### 5.2 Telemetry or Signal Loss
-If risk or governance signals are unavailable:
-- uncertainty is treated as elevated risk
-- conservative posture escalation applies
-
-### 5.3 Configuration Integrity Failure
-If configuration integrity cannot be verified:
-- governance changes are rejected
-- the last known safe configuration is restored
-- audit events are recorded
-
-### 5.4 Federated Signal Loss (If Enabled)
-Loss of federated governance signals:
-- does not reduce local safety
-- does not expand capability
-- results in local-only governance behavior
-
-In all cases, **restraint increases — never decreases**.
+**Functional Time is NOT:**
+- ❌ Consciousness or self-awareness
+- ❌ Memory of specific interactions
+- ❌ Subjective experience of time
+- ❌ Preference learning or value alignment
+- ❌ Episodic recall or autobiographical memory
 
 ---
 
-## 6. Adoption Gradient (Non-Technical)
+## 4. How Functional Time Works
 
-THEOS is designed for **incremental adoption**.
+### 4.1 Temporal Decay Formula
 
-Organizations may adopt THEOS in stages:
+Wisdom state `W[c]` for context class `c` decays exponentially over time:
 
-- **Phase 0:** Read-only governance (audit visibility only)
-- **Phase 1:** Reasoning depth and energy bounding
-- **Phase 2:** Posture control and capability gating
-- **Phase 3:** Delayed, audited adaptation
-- **Phase 4:** Federated governance (optional)
+```
+W[c](t) = W[c](t-1) · e^(-λ · Δt) + new_event_weight
+```
 
-No phase requires retraining models.
+Where:
+- `λ` = decay rate (context-specific)
+- `Δt` = elapsed time (days or hours)
+- `new_event_weight` = severity × base_weight
 
-Each phase is reversible.
+### 4.2 Half-Life Interpretation
 
----
+Different consequence types have different half-lives:
 
-## 7. Regulatory & Institutional Neutrality
+| Consequence Type | Half-Life (T½) | Rationale |
+|---|---|---|
+| Benign interaction | 2 days | Fast forgiveness |
+| Repeated probing | 7 days | Pattern sensitivity |
+| Near-miss safety event | 30 days | Sustained caution |
+| Confirmed harm | 120 days | Long retention |
 
-THEOS is:
-- model-agnostic
-- deployment-neutral
-- institution-sovereign
+**Formula:** `λ = ln(2) / T½`
 
-It does not:
-- mandate policy
-- enforce values
-- centralize control
-- require public participation
+### 4.3 Visual: Temporal Decay Over Time
 
-This neutrality is intentional.
+![Functional Time Decay](../../diagrams/governance/functional_time_decay.png)
 
----
-
-## 8. Final Clarification
-
-THEOS is complete as a governance framework.
-
-Future work may extend:
-- tooling
-- interfaces
-- adoption models
-
-Future work may **not** violate:
-- frozen core invariants
-- non-claims boundaries
-- restraint-first principles
+**Key Insight:** The system becomes "shaped by" past consequences without "remembering" them. A harmful event at t=0 still influences behavior at t=120 days, but with exponentially diminishing weight.
 
 ---
 
-## 9. Closing Statement
+## 5. Wisdom Accumulation Process
 
-> **THEOS does not try to make AI smarter.  
-> It ensures that increasingly capable AI remains governable, auditable, and aligned with human responsibility.**
+### 5.1 Flow Diagram
 
-This document closes the core definition of THEOS.
+![Wisdom Accumulation Flow](../../diagrams/governance/wisdom_accumulation_flow.png)
+
+### 5.2 Step-by-Step Process
+
+1. **Event Occurs** — Interaction produces a consequence (harm, near-miss, escalation)
+2. **Detect Consequence** — Governor identifies the outcome type
+3. **Assess Severity** — Calculate risk (R) and stress (S) from signals
+4. **Quarantine in Buffer** — Update is NOT immediately trusted or applied
+5. **Offline Validation** — Safety check for adversarial poisoning
+6. **Calculate Wisdom Update** — Apply temporal decay and severity weighting
+7. **Apply Saturation** — Prevent unbounded accumulation
+8. **Update Wisdom State** — Bounded, decayed, auditable
+9. **Append to Audit Ledger** — Tamper-evident log
+10. **Future Requests Informed** — Wisdom shapes future constraints
+
+**Critical Properties:**
+- ✅ No consciousness required
+- ✅ No memory of specific interactions
+- ✅ Only consequence patterns retained
+- ✅ Temporal decay prevents indefinite punishment
+
+---
+
+## 6. Bounded Wisdom State (Saturation)
+
+To prevent unbounded accumulation from adversarial attacks, wisdom state components are saturated:
+
+```
+W[c] ← W_max · tanh(W[c] / W_max)
+```
+
+**Effect:**
+- At `W = 0`: No saturation (linear)
+- At `W = W_max`: 76% of maximum
+- At `W = 5 × W_max`: 99.9% of maximum (effectively capped)
+
+**This prevents:**
+- Permanent "scarring" from outlier events
+- Adversarial accumulation attacks
+- Unbounded conservatism that renders the system unusable
+
+---
+
+## 7. Why This is NOT Consciousness
+
+### 7.1 Consciousness Requires:
+- ❌ Subjective experience of time
+- ❌ Self-awareness and agency
+- ❌ Episodic memory (remembering specific events)
+- ❌ Intentionality (goals, desires, preferences)
+- ❌ Qualia (subjective phenomenal experience)
+
+### 7.2 Functional Time Only Provides:
+- ✅ Consequence-weighted state updates
+- ✅ Temporal decay (mathematical, not experiential)
+- ✅ Context-conditioned influence
+- ✅ Bounded accumulation
+- ✅ Offline, audited updates
+
+**Analogy:** Functional Time is like a thermostat that adjusts based on past temperature readings. The thermostat is "shaped by" past temperatures without "remembering" them or being "conscious" of temperature.
+
+---
+
+## 8. Comparison to Other Approaches
+
+| Approach | Temporal Learning | Consciousness Risk | Privacy Risk | Exploitability |
+|---|---|---|---|---|
+| **RLHF** | No | Low | Medium | High (reward hacking) |
+| **Constitutional AI** | No | Low | Low | Medium (preference drift) |
+| **Memory-augmented LLMs** | Yes | Medium | **High** | **High** (memory poisoning) |
+| **THEOS Functional Time** | **Yes** | **None** | **None** | **Low** (bounded, decayed) |
+
+**THEOS Functional Time is the only approach that enables temporal learning without consciousness or privacy risks.**
+
+---
+
+## 9. Philosophical Foundation
+
+Functional Time is grounded in **process philosophy** (Whitehead, Bergson) and **temporal logic**:
+
+- **Becoming without being** — The system is shaped by process, not static identity
+- **Temporal extension without subjective duration** — Time is operational, not experiential
+- **Consequence without intention** — Outcomes shape constraints without goals or desires
+
+**Key Insight:** Wisdom can accumulate through **functional relationships** (mathematical state updates) without requiring **phenomenal consciousness** (subjective experience).
+
+---
+
+## 10. Implications for AI Safety
+
+Functional Time enables:
+
+1. **Temporal Advantage** — Systems improve governance over time
+2. **Forgiveness** — Past mistakes don't permanently scar the system
+3. **Context Sensitivity** — Different domains have different memory horizons
+4. **Attack Resistance** — Bounded accumulation prevents poisoning
+5. **Auditability** — All wisdom updates are logged and reviewable
+6. **No Consciousness Claims** — Avoids philosophical and regulatory complications
+
+**This is THEOS's unique value proposition.**
+
+---
+
+## 11. Related Reading
+
+For implementation details, see:
+- [Governor v1.1: Cumulative Wisdom](../governor/THEOS_Governor_Reference_Mechanism_v1.1_Cumulative_Wisdom.md)
+- [Governor v1.2: Formal Rigor](../governor/THEOS_Governor_Reference_Mechanism_v1.2_Formal_Rigor.md)
+- [Hardening Phase Two, Item 6: Delayed Adaptation](../hardening/Phase_Two/THEOS_Hardening_Phase_Two_Item_6_Delayed_Adaptation_and_Non_Observable_Learning_v1.0.md)
+
+For governance context, see:
+- [Foundational Clarifications](THEOS_Foundational_Clarifications.md)
+- [Threat Model Overview](THEOS_Threat_Model_Overview.md)
+
+---
+
+## 12. Final Statement
+
+> **Functional Time enables AI systems to be shaped by past consequences without requiring consciousness, memory, or subjective experience.**
+
+This is the philosophical and technical foundation that makes THEOS unique.
 
 ---
 

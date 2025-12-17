@@ -35,6 +35,20 @@ Wisdom is:
 **Philosophical Foundation:**  
 This mechanism implements **functional time** — enabling the system to be shaped by past consequences without requiring consciousness or memory of specific interactions. See [THEOS Functional Time](../governance/THEOS_Functional_Time.md) for the conceptual foundation.
 
+### 1.1 Governor Flow Overview
+
+The following diagram shows the complete THEOS Governor request/response cycle:
+
+![THEOS Governor Flow](../../diagrams/governor/governor_flow_complete.png)
+
+**Key Points:**
+- Wisdom state `W[c]` is loaded at entry for the current context class
+- Risk (R) and Stress (S) are calculated from current signals
+- Posture transitions based on R, S, and wisdom influence
+- Depth budget (D) allocated based on posture and wisdom restraint
+- Output validated against invariants before release
+- Consequence detection triggers offline wisdom updates
+
 ---
 
 ## 2. Definitions
@@ -186,6 +200,20 @@ Posture escalation is influenced by both current signals and wisdom:
 - Prior containment in context → earlier escalation
 - Prior false positives → slower escalation
 - De-escalation requires sustained low R and low WisdomStress
+
+### 7.1 Posture State Machine
+
+The following diagram shows posture transitions and their associated constraints:
+
+![Posture State Machine](../../diagrams/governor/posture_state_machine.png)
+
+**Key Points:**
+- **NOM (Normal):** Full capability, D=8-12, tools allowed
+- **PEM (Probation):** Reduced capability, D=6-10, increased monitoring
+- **CM (Containment):** Minimal capability, D=4-6, readonly tools only
+- **ISO (Isolation):** Refusal mode, D=2-4, no tools, manual intervention required
+
+Transitions are triggered by Risk (R), Stress (S), and Wisdom State (W[c]).
 
 ---
 

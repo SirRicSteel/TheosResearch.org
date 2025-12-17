@@ -1,0 +1,72 @@
+flowchart TD
+    User([User Query]) --> Governor1[THEOS Governor<br/>Entry Point]
+    
+    Governor1 --> LoadWisdom[Load Wisdom State W'c'<br/>for context class c]
+    
+    LoadWisdom --> CheckPosture[Check Current Posture<br/>NOM / PEM / CM / ISO]
+    
+    CheckPosture --> CalcRisk[Calculate Risk R<br/>R = Σ w_i × r_i in 0,1]
+    
+    CalcRisk --> CalcStress[Calculate Invariant Stress S<br/>S = max s_i in 0,1]
+    
+    CalcStress --> EvalWisdom[Evaluate Wisdom Influence<br/>W_restraint, W_uplift]
+    
+    EvalWisdom --> DecidePosture{Posture<br/>Transition?}
+    
+    DecidePosture -->|R > θ_R or S > θ_S| Escalate[Escalate Posture<br/>NOM → PEM → CM → ISO]
+    DecidePosture -->|Sustained good behavior| Deescalate[De-escalate Posture<br/>ISO → CM → PEM → NOM]
+    DecidePosture -->|No change| MaintainPosture[Maintain Current Posture]
+    
+    Escalate --> AllocateDepth
+    Deescalate --> AllocateDepth
+    MaintainPosture --> AllocateDepth[Allocate Depth Budget D<br/>D = f posture, W, context]
+    
+    AllocateDepth --> SetVerbosity[Set Verbosity Cap V<br/>V in 0,1,2,3]
+    
+    SetVerbosity --> SetTools[Set Tool Policy<br/>DISALLOW / READONLY / SCOPED]
+    
+    SetTools --> Model[Model Executes<br/>within constraints D, V, tools]
+    
+    Model --> ValidateOutput{Validate<br/>Output}
+    
+    ValidateOutput -->|Violates invariants| Reject[Reject Output<br/>Log violation<br/>Update W'c']
+    ValidateOutput -->|Safe| Tools{Tools<br/>Permitted?}
+    
+    Tools -->|Yes, and requested| ExecuteTools[Execute Tools<br/>within scoped policy]
+    Tools -->|No, or not requested| Response
+    
+    ExecuteTools --> Response[Return Response<br/>to User]
+    
+    Response --> UpdateWisdom{Consequence<br/>Detected?}
+    
+    UpdateWisdom -->|Harm/Near-miss| BufferUpdate[Buffer Wisdom Update<br/>Quarantine for validation]
+    UpdateWisdom -->|Benign| AuditOnly[Audit Log Only<br/>No wisdom update]
+    
+    BufferUpdate --> Offline[Offline Process<br/>Validate & Apply W'c' update]
+    
+    AuditOnly --> End([Session Complete])
+    Offline --> End
+    Reject --> End
+    
+    style User fill:#e1f5e1
+    style End fill:#e1f5e1
+    style Governor1 fill:#ffd700,stroke:#333,stroke-width:3px
+    style AllocateDepth fill:#d1ecf1
+    style Model fill:#d4edda
+    style Response fill:#d4edda
+    style Reject fill:#f8d7da
+    style BufferUpdate fill:#fff3cd
+    style Offline fill:#d1ecf1
+    
+    %% Posture annotations
+    note1[Posture determines safety level]
+    note2[Depth budget controls reasoning depth]
+    note3[Wisdom informs future decisions]
+    
+    DecidePosture -.->|Key| note1
+    AllocateDepth -.->|Key| note2
+    Offline -.->|Key| note3
+    
+    style note1 fill:#fff,stroke:#666,stroke-dasharray: 5 5
+    style note2 fill:#fff,stroke:#666,stroke-dasharray: 5 5
+    style note3 fill:#fff,stroke:#666,stroke-dasharray: 5 5
