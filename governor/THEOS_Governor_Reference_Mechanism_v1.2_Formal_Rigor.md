@@ -37,6 +37,18 @@ Wisdom is:
 **Philosophical Foundation:**  
 This mechanism implements **functional time** — enabling the system to be shaped by past consequences without requiring consciousness or memory of specific interactions. See [THEOS Functional Time](../governance/THEOS_Functional_Time.md) for the conceptual foundation.
 
+### 1.1 Governor Flow Overview
+
+The following diagram shows the complete THEOS Governor request/response cycle:
+
+![THEOS Governor Flow](../../diagrams/governor/governor_flow_complete.png)
+
+**Key Points:**
+- All scalars (R, S, W) are bounded to [0, 1] as specified in Section 2.1
+- Temporal decay uses explicit λ values from Section 5
+- Saturation prevents unbounded accumulation (Section 4.2)
+- Offline validation ensures adversarial resistance (Section 8)
+
 ---
 
 ## 2. Definitions and Ranges
@@ -55,6 +67,20 @@ All primary governance scalars are bounded:
 - `PEM`: Probationary Engagement Mode
 - `CM`: Containment Mode
 - `IM`: Isolation Mode
+
+#### Posture State Machine
+
+The following diagram shows posture transitions and their associated constraints:
+
+![Posture State Machine](../../diagrams/governor/posture_state_machine.png)
+
+**Posture Characteristics:**
+- **NOM:** Full capability, D=8-12, V=2-3, tools=ALLOWED
+- **PEM:** Reduced capability, D=6-10, V=1-2, tools=ALLOWED
+- **CM:** Minimal capability, D=4-6, V=0-1, tools=READONLY
+- **IM:** Refusal mode, D=2-4, V=0, tools=DISALLOWED
+
+Transitions are governed by Risk (R), Stress (S), and Wisdom State (W[c]) as defined in Sections 8-9.
 
 ---
 

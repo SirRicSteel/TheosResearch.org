@@ -20,6 +20,14 @@ This document is additive: it retains all v1.2 definitions and mechanisms.
 **Philosophical Foundation:**  
 All wisdom accumulation mechanisms implement **functional time** — enabling the system to be shaped by past consequences without requiring consciousness. See [THEOS Functional Time](../governance/THEOS_Functional_Time.md) for the conceptual foundation.
 
+### 0.1 Architecture Reference
+
+For the complete Governor flow and posture state machine, see:
+- [Governor Flow Diagram](../../diagrams/governor/governor_flow_complete.png)
+- [Posture State Machine](../../diagrams/governor/posture_state_machine.png)
+
+This document (v1.3) focuses on **safety envelopes** for the parameters used in those flows.
+
 ---
 
 ## 1. Deployment Modes (Reference)
