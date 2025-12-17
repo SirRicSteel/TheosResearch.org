@@ -7,7 +7,11 @@ Dear Anthropic Research & Safety Leadership Team,
 
 I am writing to propose a governance-first AI architecture that addresses scaling risks Constitutional AI was not designed to solve.
 
-**THEOS (The Humanitarian & Ethical Operating System)** is a runtime governance layer designed to make safety, ethics, and restraint structural properties of AI systems as they scale. It is not a training method, model, or alignment replacement—it is complementary infrastructure.
+**We built a Theostat for AI safety.**
+
+**THEOS (The Humanitarian & Ethical Operating System)** is a runtime governance layer designed to make safety, ethics, and restraint structural properties of AI systems as they scale. Like a thermostat that monitors temperature and adjusts heating or cooling to maintain comfort, the THEOS Governor monitors risk signals and adjusts constraints to keep AI systems operating within safe boundaries—balancing safety with operational efficiency.
+
+THEOS is not a training method, model, or alignment replacement—it is complementary infrastructure.
 
 As reasoning systems scale toward multi-step planning and tool use, the gap between capability and governance is widening. THEOS was designed to close that gap.
 

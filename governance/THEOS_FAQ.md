@@ -21,9 +21,10 @@
 11. [Is THEOS "aware" of time?](#11-is-theos-aware-of-time)
 12. [How does THEOS handle privacy?](#12-how-does-theos-handle-privacy)
 13. [What's the difference between postures (NOM/PEM/CM/ISO)?](#13-whats-the-difference-between-postures-nompemcmiso)
-14. [How long does it take to deploy THEOS?](#14-how-long-does-it-take-to-deploy-theos)
-15. [Is THEOS open source?](#15-is-theos-open-source)
-16. [Who should use THEOS?](#16-who-should-use-theos)
+14. [What is a "Theostat" and how does it balance safety with efficiency?](#14-what-is-a-theostat-and-how-does-it-balance-safety-with-efficiency)
+15. [How long does it take to deploy THEOS?](#15-how-long-does-it-take-to-deploy-theos)
+16. [Is THEOS open source?](#16-is-theos-open-source)
+17. [Who should use THEOS?](#17-who-should-use-theos)
 
 ---
 
@@ -38,7 +39,7 @@
 
 **Key Insight:** THEOS governs AI behavior **without** modifying model weights, requiring retraining, or claiming consciousness.
 
-**Analogy:** Think of the THEOS Governor as a **thermostat for AI safety**—it monitors risk signals and automatically adjusts constraints to keep the system operating within safe boundaries. Like a spam filter that learns from consequences (not consciousness), THEOS accumulates wisdom from past interactions without subjective experience.
+**Analogy:** Think of the THEOS Governor as a **Theostat**—a thermostat for AI safety that monitors risk signals and automatically adjusts constraints to keep the system operating within safe boundaries. Like a spam filter that learns from consequences (not consciousness), THEOS accumulates wisdom from past interactions without subjective experience.
 
 ---
 
@@ -422,7 +423,82 @@ THEOS is designed for **privacy by default**:
 
 ---
 
-## 13. How long does it take to deploy THEOS?
+## 14. What is a "Theostat" and how does it balance safety with efficiency?
+
+A **Theostat** is our term for the THEOS Governor's core function: **adaptive constraint regulation** that balances safety with operational efficiency.
+
+### The Thermostat Analogy
+
+Physical thermostats have an adjustable **sensitivity threshold**:
+
+**Tight Threshold (±0.1°F):**
+- ✅ Precise temperature control
+- ❌ HVAC runs constantly
+- ❌ Equipment wears out faster
+- ❌ High energy costs
+
+**Loose Threshold (±2°F):**
+- ✅ Less equipment wear
+- ✅ Lower energy costs
+- ❌ Less precise control
+- ❌ Occasional discomfort
+
+**Optimal Threshold:**
+- ✅ Balances precision with efficiency
+- ✅ Adapts to environmental conditions
+- ✅ Minimizes waste while maintaining comfort
+
+### How THEOS Works the Same Way
+
+The **Theostat** (THEOS Governor) adjusts its **sensitivity to risk signals** based on accumulated wisdom:
+
+**New/Untrusted Context (Tight Constraints):**
+- High sensitivity to risk signals
+- Restrictive depth budgets
+- Frequent posture escalations
+- **Like:** ±0.1°F thermostat (very cautious)
+
+**Established/Trusted Context (Looser Constraints):**
+- Lower sensitivity to minor fluctuations
+- More generous depth budgets
+- Rare posture escalations
+- **Like:** ±2°F thermostat (efficient operation)
+
+**High-Risk Domain (Always Tight):**
+- Sensitivity remains high regardless of history
+- Safety-critical applications (medical, financial)
+- **Like:** Temperature-sensitive laboratory (precision required)
+
+### The Wisdom-Informed Difference
+
+**Without Wisdom (Static Thresholds):**
+- ❌ Either too paranoid (unusable) or too loose (dangerous)
+- ❌ Same constraints for all users/contexts
+- ❌ No learning from consequences
+
+**With Wisdom (Adaptive Thresholds):**
+- ✅ Learns appropriate sensitivity for each context
+- ✅ Balances safety with capability
+- ✅ Reduces "governance overhead" for trusted interactions
+- ✅ Maintains tight control where needed
+
+### Practical Impact
+
+**Efficiency Gains:**
+- Trusted users get fuller capability (higher depth budgets)
+- Reduces unnecessary posture escalations
+- Minimizes "safety theater" (constraints without benefit)
+
+**Safety Preservation:**
+- New/risky contexts remain tightly constrained
+- Wisdom prevents premature relaxation
+- Domain-specific overrides maintain critical safeguards
+
+**Bottom Line:** The Theostat doesn't just enforce safety—it **optimizes the cost of safety** by learning where tight control is necessary and where it's wasteful.
+
+---
+
+## 15. How long does it take to deploy THEOS?
 
 ### Deployment Timeline:
 
@@ -440,7 +516,7 @@ THEOS is designed for **privacy by default**:
 
 ---
 
-## 14. Is THEOS open source?
+## 16. Is THEOS open source?
 
 **Status:** THEOS specifications are **publicly available** under a permissive license.
 
@@ -461,7 +537,7 @@ THEOS is designed for **privacy by default**:
 
 ---
 
-## 15. Who should use THEOS?
+## 17. Who should use THEOS?
 
 ### Ideal Use Cases:
 

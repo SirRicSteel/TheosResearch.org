@@ -2,6 +2,8 @@
 
 **THEOS (The Humanitarian & Ethical Operating System)** is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
 
+**Think of it as a Theostat:** Like a thermostat that monitors temperature and adjusts heating/cooling to maintain comfort, the THEOS Governor monitors risk signals and adjusts constraints to keep AI systems operating within safe boundaries.
+
 ---
 
 ## New to THEOS?
@@ -16,7 +18,7 @@
 
 ## What THEOS Does
 
-THEOS constrains, allocates, and audits reasoning produced by other AI systems, providing:
+The **Theostat** (THEOS Governor) constrains, allocates, and audits reasoning produced by other AI systems, providing:
 - **Bounded reasoning** (depth, energy, tool use)
 - **Posture-based escalation** (Normal → Probation → Containment → Isolation)
 - **Delayed, auditable adaptation** (wisdom accumulation without observable learning)
