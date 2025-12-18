@@ -1,12 +1,31 @@
 # THEOS Research — Governance-First AI Safety
 
-![THEOS Logo](THEOS_LOGO.jpeg)
+![THEOS Logo](assets/THEOS_LOGO.jpeg)
 
-**THEOS** is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
+**THEOS** (The Humanitarian and Ethical Operating System) is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
 
 *"Transparency is a governance choice. THEOS makes that choice mandatory."*
 
 **Think of it as a Theostat:** Like a thermostat that monitors temperature and adjusts heating/cooling to maintain comfort, the THEOS Governor monitors risk signals and adjusts constraints to keep AI systems operating within safe boundaries.
+
+---
+
+## For Anthropic Review
+
+**Complete Pitch Package:**
+
+- 📦 **[Complete Package (ZIP)](THEOS_ANTHROPIC_COMPLETE_PACKAGE.zip)** — All materials in one archive
+- 📄 **[Executive Summary](pitch/THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md)** — 5-page overview (start here)
+- 📊 **[Full Pitch Deck](pitch/THEOS_ANTHROPIC_PITCH_DECK.md)** — 8-page presentation with partnership models
+- 📋 **[Master Document](THEOS_ANTHROPIC_MASTER_DOCUMENT.md)** — Complete consolidated documentation (64 pages)
+- 🧭 **[Repository Navigation Guide](ANTHROPIC_REPOSITORY_NAVIGATION_GUIDE.md)** — Structured review path
+- 📧 **[Delivery Strategy Guide](ANTHROPIC_PITCH_DELIVERY_GUIDE.md)** — Internal reference for outreach
+
+**Quick Links:**
+- **ORCID:** [0009-0009-9063-7438](https://orcid.org/0009-0009-9063-7438)
+- **Patent:** U.S. Application No. 18/919,771
+- **Public Research:** [https://github.com/Frederick-Stalnecker/THEOS](https://github.com/Frederick-Stalnecker/THEOS)
+- **GitHub Pages:** [https://frederick-stalnecker.github.io/THEOS/](https://frederick-stalnecker.github.io/THEOS/)
 
 ---
 
@@ -16,7 +35,7 @@
 **Start here:** [ANTHROPIC_QUICK_START.md](ANTHROPIC_QUICK_START.md) — Tailored 60-minute review path with evidence, implementation, and compliance docs.
 
 ### **For Everyone Else:**
-**Start here:** [BENCHMARKS.md](BENCHMARKS.md) — Quantitative performance analysis including safety improvements, compute costs, and latency impacts.
+**Start here:** [BENCHMARKS.md](evidence/BENCHMARKS.md) — Quantitative performance analysis including safety improvements, compute costs, and latency impacts.
 
 **Core concept:** [THEOS Functional Time](governance/THEOS_Functional_Time.md) — How temporal governance enables AI accountability without recursive refinement.
 
@@ -123,3 +142,7 @@ For security vulnerabilities, see [`.github/SECURITY.md`](.github/SECURITY.md).
 ---
 
 **THEOS: Governance-first AI safety. Deployable today.**
+
+---
+
+*"Transparency is a governance choice."* — Frederick Davis Stalnecker
