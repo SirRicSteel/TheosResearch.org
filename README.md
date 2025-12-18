@@ -1,6 +1,6 @@
 # THEOS Research — Governance-First AI Safety
 
-![THEOS Logo](assets/THEOS_LOGO.jpeg)
+![THEOS Logo](assets/THEOS_LOGO_README.png)
 
 **THEOS** is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
 
