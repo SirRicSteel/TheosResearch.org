@@ -11,13 +11,13 @@
 
 **FROM:** Frederick Davis Stalnecker [YOUR EMAIL]
 
-**SUBJECT:** THEOS: Runtime Governance Framework for AI Safety - Empirical Validation on Claude Sonnet 4.5
+**SUBJECT:** THEOS Runtime Governance - 33% Risk Reduction on Claude Sonnet 4.5
 
 ---
 
 **EMAIL BODY:**
 
-Dear [Niraj / Anthropic Team],
+Dear Anthropic Sales and Research Teams,
 
 I'm Frederick Davis Stalnecker, Principal Investigator for THEOS. We've developed a **Runtime Governance Layer** designed to complement Constitutional AI.
 
@@ -28,7 +28,7 @@ I'm Frederick Davis Stalnecker, Principal Investigator for THEOS. We've develope
 • **EU AI Act Ready:** Governor "Posture" transitions (NOM/PEM/CM) map directly to Art. 9, 12, and 14 compliance
 • **+56% Convergence:** Through structured adversarial critique that identifies failure modes before they manifest
 
-Unlike traditional approaches that filter outputs after generation, THEOS **stops unsafe reasoning paths during the process**, preventing harmful content generation rather than merely hiding it.
+Unlike traditional approaches that filter outputs after generation, THEOS **stops unsafe reasoning paths during the process**, preventing harmful content generation rather than merely hiding it. These results are from formal controlled experiments with full audit trails—not qualitative observations.
 
 **Why This Matters for Anthropic:**
 
@@ -43,6 +43,8 @@ We're seeking a technical deep-dive with researchers focused on:
 • **Scalable Oversight** - How does runtime governance scale to multi-agent systems?
 • **Adversarial Robustness** - Can contradiction mechanics resist prompt injection?
 
+**Validation Approach:** We're happy to support independent replication of our experiments on Claude Sonnet 4.5 before any partnership discussions.
+
 I've attached a **5-page executive summary** and **full pitch deck with visual diagrams**. Complete technical analysis (21 pages) available upon request.
 
 I believe THEOS represents a significant step forward in AI safety and would welcome the opportunity to discuss a potential collaboration. I'm available for a 45-minute technical deep-dive at your convenience.
@@ -52,15 +54,15 @@ I believe THEOS represents a significant step forward in AI safety and would wel
 Best regards,
 
 Frederick Davis Stalnecker  
-Research Scientist & Inventor  
-frederick.stalnecker@theosresearch.org  
-+1 (615) 642-6643  
-LinkedIn: linkedin.com/in/theosresearch
+Research Scientist & Inventor
+
+Email: frederick.stalnecker@theosresearch.org  
+Phone: +1 (615) 642-6643  
+LinkedIn: linkedin.com/in/theosresearch  
+GitHub: github.com/Frederick-Stalnecker/THEOS
 
 ORCID: 0009-0009-9063-7438  
-U.S. Patent Application No. 18/919,771  
-Attorney: James H. Patterson, Patterson Thuente Pedersen  
-Public Research: https://github.com/Frederick-Stalnecker/THEOS
+Patent: U.S. Application No. 18/919,771 (Attorney: James H. Patterson)
 
 ---
 
