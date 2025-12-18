@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-THEOS (The Humanitarian & Ethical Operating System) is a governance-first AI architecture designed to make safety, ethics, and wisdom *structural properties* rather than after-the-fact constraints. Unlike approaches that regulate outputs alone, THEOS governs **reasoning expenditure, adaptation timing, capability deployment, and lifecycle stewardship** under a single auditable Governor.
+THEOS is a governance-first AI architecture designed to make safety, ethics, and wisdom *structural properties* rather than after-the-fact constraints. Unlike approaches that regulate outputs alone, THEOS governs **reasoning expenditure, adaptation timing, capability deployment, and lifecycle stewardship** under a single auditable Governor.
 
 **Think of the THEOS Governor as a Theostat**—it monitors risk signals and automatically adjusts constraints to keep the system operating within safe boundaries, balancing safety with operational efficiency.
 

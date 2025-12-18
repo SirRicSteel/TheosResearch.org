@@ -1,6 +1,6 @@
 # THEOS Governance Materials
 
-This folder contains the **authoritative governance documentation** for THEOS (The Humanitarian & Ethical Operating System).
+This folder contains the **authoritative governance documentation** for THEOS.
 
 These materials define what THEOS is, what it guarantees, and how it should be deployed and audited.
 

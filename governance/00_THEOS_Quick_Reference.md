@@ -1,7 +1,7 @@
 # THEOS — Quick Reference
 
 **What it is (30 seconds):**  
-THEOS (The Humanitarian & Ethical Operating System) is a **deterministic runtime governance layer** for AI systems.  
+THEOS is a **deterministic runtime governance layer** for AI systems.  
 It governs *how* intelligence is applied — not *what* the intelligence is.
 
 ---

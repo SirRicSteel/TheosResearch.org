@@ -1,6 +1,6 @@
 # THEOS — Classification Statement
 
-THEOS (The Humanitarian & Ethical Operating System) is **not** a learning algorithm, model, or agent.
+THEOS is **not** a learning algorithm, model, or agent.
 
 **Definition**
 
