@@ -165,7 +165,7 @@ THEOS creates the conditions for growth:
 ```bash
 # Clone the repository
 git clone https://github.com/Frederick-Stalnecker/THEOS.git
-cd TheosResearch.org/THEOS_Architecture
+cd THEOS/THEOS_Architecture
 
 # No dependencies required for governor
 python3 governor/theos_dual_clock_governor.py
