@@ -53,8 +53,9 @@ Best regards,
 
 Frederick Davis Stalnecker  
 Research Scientist & Inventor  
-[YOUR EMAIL]  
-[YOUR PHONE]  
+frederick.stalnecker@theosresearch.org  
++1 (615) 642-6643  
+LinkedIn: linkedin.com/in/theosresearch
 
 ORCID: 0009-0009-9063-7438  
 U.S. Patent Application No. 18/919,771  
