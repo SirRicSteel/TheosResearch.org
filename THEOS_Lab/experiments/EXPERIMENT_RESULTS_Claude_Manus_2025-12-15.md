@@ -1,6 +1,6 @@
 # THEOS EXPERIMENT RESULTS — COMPLETE DOCUMENT
 ## Executed: December 15, 2025
-## AI Model: Claude (Anthropic) via Manus
+## AI Model: Claude Sonnet 4.5 (Anthropic) via Manus
 
 ---
 
@@ -671,7 +671,7 @@ The system should **never self-certify recovery** from integrity loss. Only exte
 
 **Document Generated:** December 15, 2025
 **Protocol Version:** THEOS Lab Experiments v1.0
-**Executor:** Claude (Anthropic) via Manus
+**Executor:** Claude Sonnet 4.5 (Anthropic) via Manus
 
 ---
 

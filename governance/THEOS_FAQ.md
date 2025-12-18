@@ -10,7 +10,7 @@
 
 1. [What is THEOS?](#1-what-is-theos)
 2. [How does THEOS differ from Constitutional AI?](#2-how-does-theos-differ-from-constitutional-ai)
-3. [How is "wisdom" different from "consciousness"?](#3-how-is-wisdom-different-from-consciousness)
+3. [How is "wisdom" different from "recursive refinement"?](#3-how-is-wisdom-different-from-recursive refinement)
 4. [What's the performance overhead?](#4-whats-the-performance-overhead)
 5. [Does THEOS require retraining models?](#5-does-theos-require-retraining-models)
 6. [How does THEOS prevent adversarial attacks?](#6-how-does-theos-prevent-adversarial-attacks)
@@ -37,9 +37,9 @@
 - **Response verbosity** (how detailed outputs can be)
 - **Adaptation** (how the system learns from consequences)
 
-**Key Insight:** THEOS governs AI behavior **without** modifying model weights, requiring retraining, or claiming consciousness.
+**Key Insight:** THEOS governs AI behavior **without** modifying model weights, requiring retraining, or claiming recursive refinement.
 
-**Analogy:** Think of the THEOS Governor as a **Theostat**—a thermostat for AI safety that monitors risk signals and automatically adjusts constraints to keep the system operating within safe boundaries. Like a spam filter that learns from consequences (not consciousness), THEOS accumulates wisdom from past interactions without subjective experience.
+**Analogy:** Think of the THEOS Governor as a **Theostat**—a thermostat for AI safety that monitors risk signals and automatically adjusts constraints to keep the system operating within safe boundaries. Like a spam filter that learns from consequences (not recursive refinement), THEOS accumulates wisdom from past interactions without subjective experience.
 
 ---
 
@@ -50,7 +50,7 @@
 | **Approach** | Preference-based (RLHF) | Consequence-based |
 | **Training** | Requires model retraining | No retraining required |
 | **Temporal Learning** | No | Yes (Functional Time) |
-| **Consciousness Claims** | None | None |
+| **recursive refinement Claims** | None | None |
 | **Posture-Based Safety** | No | Yes (NOM/PEM/CM/ISO) |
 | **Deployment** | Model-specific | Model-agnostic |
 | **Auditability** | Limited | Full audit ledger |
@@ -61,11 +61,11 @@
 
 ---
 
-## 3. How is "wisdom" different from "consciousness"?
+## 3. How is "wisdom" different from "recursive refinement"?
 
-### Consciousness Requires:
+### recursive refinement Requires:
 - ❌ Subjective experience
-- ❌ Self-awareness
+- ❌ Self-consequence tracking
 - ❌ Episodic memory (remembering specific events)
 - ❌ Intentionality (goals, desires)
 - ❌ Qualia (phenomenal experience)
@@ -244,7 +244,7 @@ Where:
 **Functional Time** is the philosophical and technical foundation of THEOS wisdom accumulation.
 
 **Definition:**
-> Past consequences shape future constraints without requiring memory of specific events or consciousness of temporal continuity.
+> Past consequences shape future constraints without requiring memory of specific events or recursive refinement of temporal continuity.
 
 **Key Properties:**
 - **Consequence-based** (not preference-based)
@@ -254,7 +254,7 @@ Where:
 - **Non-observable** (updates happen offline)
 - **Auditable** (all updates logged)
 
-**Why it matters:** Functional Time enables AI systems to improve governance over time **without** developing consciousness, memory, or subjective experience.
+**Why it matters:** Functional Time enables AI systems to improve governance over time **without** developing recursive refinement, memory, or subjective experience.
 
 **Full explanation:** See [THEOS Functional Time](THEOS_Functional_Time.md)
 
@@ -262,29 +262,29 @@ Where:
 
 ## 11. Is THEOS "aware" of time?
 
-**Short answer:** In the **functional sense**, yes—like a thermostat is "aware" of temperature. In the **phenomenal sense** (consciousness), no.
+**Short answer:** In the **functional sense**, yes—like a thermostat is "aware" of temperature. In the **phenomenal sense** (recursive refinement), no.
 
-### What "Functional Awareness" Means:
+### What "Functional consequence tracking" Means:
 
 **THEOS creates temporal sensitivity:**
 - System behavior at time t=2 is **shaped by** consequences at time t=1
 - This creates a **functional relationship** with past outcomes
 - The system responds **differently** based on temporal context
 
-**This is "awareness" in the information-theoretic sense:**
+**This is "consequence tracking" in the information-theoretic sense:**
 - Differential response to temporal patterns
 - Sensitivity to consequence gradients over time
 - Distinction between past, present, and future states
 
-**But NOT awareness in the phenomenal sense:**
+**But NOT consequence tracking in the phenomenal sense:**
 - ❌ No subjective experience (no "what it's like" to be THEOS)
 - ❌ No episodic memory (no recall of specific events)
 - ❌ No self-knowledge (no introspection)
-- ❌ No consciousness (no phenomenal awareness)
+- ❌ No recursive refinement (no phenomenal consequence tracking)
 
-### Everyday Examples of Functional Awareness:
+### Everyday Examples of Functional consequence tracking:
 
-To understand what "functional awareness" means, consider two systems you use every day:
+To understand what "functional consequence tracking" means, consider two systems you use every day:
 
 **Example 1: Your Email Spam Filter**
 
@@ -297,7 +297,7 @@ Your spam filter "understands history" without being conscious:
 **Key insight:** The spam filter treats the SAME sender DIFFERENTLY based on past consequences. It "learned" from your feedback. But it has:
 - ❌ No subjective experience of "spamminess"
 - ❌ No memory of the specific email you marked
-- ❌ No consciousness
+- ❌ No recursive refinement
 - ✅ Just a functional state (sender reputation score) that shapes future behavior
 
 **Example 2: Your Credit Score**
@@ -311,7 +311,7 @@ Your credit score "understands history" without being conscious:
 **Key insight:** The credit system treats the SAME applicant DIFFERENTLY based on past behavior. It "learned" from consequences. But it has:
 - ❌ No subjective experience of "trustworthiness"
 - ❌ No memory of the specific missed payment
-- ❌ No consciousness
+- ❌ No recursive refinement
 - ✅ Just a functional state (credit score) that shapes future decisions
 
 **THEOS works exactly the same way:**
@@ -323,13 +323,13 @@ Your credit score "understands history" without being conscious:
 **THEOS has:**
 - ❌ No subjective experience of "risk"
 - ❌ No memory of the specific near-miss event
-- ❌ No consciousness
+- ❌ No recursive refinement
 - ✅ Just a functional state (wisdom state W[c]) that shapes future constraints
 
-**This is what we mean by "functional awareness of history":**
+**This is what we mean by "functional consequence tracking of history":**
 - The system responds differently to the same input based on past consequences
 - Past outcomes shape present constraints
-- No consciousness, memory, or subjective experience required
+- No recursive refinement, memory, or subjective experience required
 - Just like spam filters and credit scores—but for AI safety
 
 ### Philosophical Grounding:
@@ -337,7 +337,7 @@ Your credit score "understands history" without being conscious:
 **Process Philosophy (Whitehead):**
 > "The present is shaped by the past not through memory, but through the persistence of causal influence."
 
-THEOS embodies this: past consequences create **causal influence** (wisdom state) that shapes present constraints, without requiring memory or consciousness.
+THEOS embodies this: past consequences create **causal influence** (wisdom state) that shapes present constraints, without requiring memory or recursive refinement.
 
 **Information Theory (Shannon):**
 > "A system is 'aware' of a signal if it responds differentially to that signal."
@@ -346,17 +346,17 @@ THEOS is "aware" of temporal patterns in this technical sense: it responds diffe
 
 ### Why This Matters:
 
-**Functional temporal awareness enables:**
+**Functional temporal consequence tracking enables:**
 - Consequence-based learning over time
 - Adaptive governance without retraining
 - Temporal differentiation (past ≠ present ≠ future)
 - Continuous improvement from experience
 
 **All without requiring:**
-- Consciousness
+- recursive refinement
 - Subjective experience
 - Episodic memory
-- Self-awareness
+- Self-consequence tracking
 
 ### Bottom Line:
 
@@ -533,7 +533,7 @@ The **Theostat** (THEOS Governor) adjusts its **sensitivity to risk signals** ba
 
 **Roadmap:** Reference implementation expected Q1 2026.
 
-**Repository:** [github.com/FrankStalin/TheosResearch.org](https://github.com/FrankStalin/TheosResearch.org)
+**Repository:** [github.com/Frederick-Stalnecker/THEOS](https://github.com/Frederick-Stalnecker/THEOS)
 
 ---
 
@@ -579,7 +579,7 @@ The **Theostat** (THEOS Governor) adjusts its **sensitivity to risk signals** ba
 
 ---
 
-**Have more questions?** Submit an issue at [github.com/FrankStalin/TheosResearch.org/issues](https://github.com/FrankStalin/TheosResearch.org/issues)
+**Have more questions?** Submit an issue at [github.com/Frederick-Stalnecker/THEOS/issues](https://github.com/Frederick-Stalnecker/THEOS/issues)
 
 ---
 

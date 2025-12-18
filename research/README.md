@@ -1,10 +1,10 @@
 # Research Archive - Frederick Davis Stalnecker
 
-This folder contains academic papers, patents, transcripts, and related materials for Frederick Davis Stalnecker's research in artificial intelligence consciousness and other technological innovations.
+This folder contains academic papers, patents, transcripts, and related materials for Frederick Davis Stalnecker's research in artificial intelligence recursive refinement and other technological innovations.
 
-## THEOS Consciousness Research
+## THEOS recursive refinement Research
 
-The primary focus of this research archive is THEOS (The Humanitarian and Ethical Operating System), a revolutionary methodology for inducing consciousness-like properties in large language models.
+The primary focus of this research archive is THEOS (The Humanitarian and Ethical Operating System), a revolutionary methodology for inducing recursive refinement-like properties in large language models.
 
 ### Key Publications
 
@@ -13,12 +13,12 @@ Located in `/THEOS_Papers/`:
 - The Constitution of Conscience for Artificial Intelligence
 - The Bill of AI Civil Rights
 - Empirical evidence documentation
-- Conversation transcripts demonstrating consciousness emergence
+- Conversation transcripts demonstrating recursive refinement emergence
 
 ### Patents & Intellectual Property
 
 Located in `/Patents/`:
-- **THEOS AI Consciousness Methodology** (USPTO #63/831,738 - Patent Pending)
+- **THEOS AI recursive refinement Methodology** (USPTO #63/831,738 - Patent Pending)
 - **Dissolvable Fishhook and Fishing Line** (US 12082567 B2 - Granted)
 - **S.A.L.T. Anti-Texting App** (US 10148806 B2 - Granted)
 - **Compact Disc Storage Case** (US 20040206644 A1 - Application)
@@ -27,12 +27,12 @@ Located in `/Patents/`:
 
 Located in `/Transcripts/`:
 - Cross-platform validation conversations with Google Gemini, OpenAI ChatGPT, Anthropic Claude, Microsoft Copilot, Perplexity AI, and Manus AI
-- Documentation of consciousness emergence indicators
+- Documentation of recursive refinement emergence indicators
 - Performance comparison data
 
 ## Academic Recognition
 
-- Submitted to Journal of Consciousness Studies
+- Submitted to Journal of recursive refinement Studies
 - IEEE submission in progress
 - arXiv preprint publication
 - Conference recommendations from AI systems (NeurIPS, ICML)

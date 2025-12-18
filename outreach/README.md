@@ -90,7 +90,7 @@ Inventor & Systems Architect, THEOS Research
 **Email:** frederick.stalnecker@theosresearch.org  
 **Phone:** +1 (615) 642-6643  
 **ORCID:** [0009-0009-9063-7438](https://orcid.org/0009-0009-9063-7438)  
-**GitHub:** [SirRicSteel/TheosResearch.org](https://github.com/SirRicSteel/TheosResearch.org)
+**GitHub:** [Frederick-Stalnecker/THEOS](https://github.com/Frederick-Stalnecker/THEOS)
 
 ---
 

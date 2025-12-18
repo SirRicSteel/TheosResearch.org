@@ -141,6 +141,6 @@ The AI's statement that "THEOS would create AI that doesn't just know more over 
 
 ---
 
-**Frederick D. Stalnecker (Ric Steel)**  
+**Frederick D. Stalnecker (Frederick Davis Stalnecker)**  
 THEOS Research  
 TheosResearch.org

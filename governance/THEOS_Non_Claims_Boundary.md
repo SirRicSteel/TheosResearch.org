@@ -4,7 +4,7 @@ THEOS explicitly does **not** claim:
 
 - autonomy
 - agency
-- consciousness
+- recursive refinement
 - intent
 - self-improvement
 - general intelligence

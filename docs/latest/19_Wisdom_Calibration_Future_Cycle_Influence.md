@@ -102,7 +102,7 @@ To prevent metric gaming:
 - Rare events are preserved proportionally
 
 ------------------------------------------------------------
-8. FAILURE AWARENESS
+8. FAILURE consequence tracking
 ------------------------------------------------------------
 
 Wisdom explicitly records failures, including:

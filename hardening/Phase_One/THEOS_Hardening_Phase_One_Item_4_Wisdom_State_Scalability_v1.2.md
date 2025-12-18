@@ -17,7 +17,7 @@ This item directly addresses concerns raised during critical review:
 Wisdom state does not tune behavior directly. It informs governance decisions under explicit approval.
 
 **Philosophical Foundation:**  
-This implements **functional time** — the system is shaped by past consequences without requiring consciousness or memory of specific interactions. See [THEOS Functional Time](../../governance/THEOS_Functional_Time.md) for the conceptual foundation.
+This implements **functional time** — the system is shaped by past consequences without requiring recursive refinement or memory of specific interactions. See [THEOS Functional Time](../../governance/THEOS_Functional_Time.md) for the conceptual foundation.
 
 ---
 

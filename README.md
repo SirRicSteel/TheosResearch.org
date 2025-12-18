@@ -1,6 +1,10 @@
 # THEOS Research — Governance-First AI Safety
 
-**THEOS (The Humanitarian & Ethical Operating System)** is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
+![THEOS Logo](THEOS_LOGO.jpeg)
+
+**THEOS** is a deterministic runtime governance layer for AI systems. It governs *how* intelligence is applied — not *what* the intelligence is.
+
+*"Transparency is a governance choice. THEOS makes that choice mandatory."*
 
 **Think of it as a Theostat:** Like a thermostat that monitors temperature and adjusts heating/cooling to maintain comfort, the THEOS Governor monitors risk signals and adjusts constraints to keep AI systems operating within safe boundaries.
 
@@ -8,11 +12,15 @@
 
 ## New to THEOS?
 
-**Start here:** [THEOS Foundational Clarifications](governance/THEOS_Foundational_Clarifications.md) — the authoritative definition of THEOS, formal invariants, and non-claims boundary.
+### **For Anthropic Reviewers:**
+**Start here:** [ANTHROPIC_QUICK_START.md](ANTHROPIC_QUICK_START.md) — Tailored 60-minute review path with evidence, implementation, and compliance docs.
 
-**Core concept:** [THEOS Functional Time](governance/THEOS_Functional_Time.md) — how temporal governance enables AI accountability without consciousness.
+### **For Everyone Else:**
+**Start here:** [BENCHMARKS.md](BENCHMARKS.md) — Quantitative performance analysis including safety improvements, compute costs, and latency impacts.
 
-**Quick orientation:** [THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md) — a one-page overview for busy executives.
+**Core concept:** [THEOS Functional Time](governance/THEOS_Functional_Time.md) — How temporal governance enables AI accountability without recursive refinement.
+
+**Quick orientation:** [THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md) — One-page overview for busy executives.
 
 ---
 
@@ -25,39 +33,25 @@ The **Theostat** (THEOS Governor) constrains, allocates, and audits reasoning pr
 - **Capability gating** by deployment mode
 - **Enforceable suspension** and lifecycle controls
 
-**THEOS is complementary to Constitutional AI, RLHF, and other alignment methods.** It doesn't replace them — it wraps them.
+**THEOS does not replace Constitutional AI; it governs its application in real-time.** It is a **"Theostat"** that helps the model run safely in high-stakes environments.
 
 ---
 
 ## Repository Navigation
 
-This repository is organized for different audiences:
+This repository is organized into four key directories:
 
-### For Engineers & Implementers
-- **[`/governor/`](governor/)** — Technical specifications, reference implementation, and worked examples
-- **[`/hardening/`](hardening/)** — Production readiness, adversarial resistance, and deployment guides
-- **[`/diagrams/`](diagrams/)** — Visual documentation (coming soon)
-
-### For Researchers & Academics
-- **[`/research/`](research/)** — Comparative positioning, architectural significance, and publication materials
-- **[`/governance/`](governance/)** — Formal invariants, threat model, and classification statement
-
-### For Business Leaders & Startups
-- **[`/governance/THEOS_Startup_Value_Brief.md`](governance/THEOS_Startup_Value_Brief.md)** — Commercial value proposition
-- **[`/outreach/`](outreach/)** — Cover letters and communication templates
-- **[`/legal/`](legal/)** — IP status, licensing options, and N.D.A. protocols
-
-### For Regulators & Policy Makers
-- **[`/governance/THEOS_Classification_Statement.md`](governance/THEOS_Classification_Statement.md)** — What THEOS is and isn't
-- **[`/governance/THEOS_Non_Claims_Boundary.md`](governance/THEOS_Non_Claims_Boundary.md)** — Legal boundaries and disclaimers
-- **[`/hardening/Phase_Four/`](hardening/Phase_Four/)** — Regulatory alignment and certification readiness
+1.  **[/pitch](pitch/)** - Core pitch materials for Anthropic.
+2.  **[/evidence](evidence/)** - Empirical evidence validating THEOS.
+3.  **[/code](code/)** - Core code and integration guides.
+4.  **[/compliance](compliance/)** - Regulatory compliance documentation.
 
 ---
 
 ## Key Innovations
 
 1. **Functional Time (Temporal Governance)**  
-   THEOS introduces functional time as a governance primitive—enabling AI systems to be shaped by past consequences without requiring consciousness or exploitable memory.
+   THEOS introduces functional time as a governance primitive—enabling AI systems to be shaped by past consequences without requiring recursive refinement or exploitable memory.
 
 2. **Cumulative Wisdom Without Observable Adaptation**  
    THEOS accumulates consequence-based wisdom from past interactions without allowing adversaries to observe or exploit the learning process.
@@ -84,11 +78,10 @@ This repository is organized for different audiences:
 
 ## Quick Links
 
-- **[THEOS Quick Reference](governance/00_THEOS_Quick_Reference.md)** (start here)
-- **[Governor Technical Spec](governor/README.md)** (for engineers)
-- **[Formal Invariants](governance/THEOS_Formal_Invariants.md)** (safety guarantees)
-- **[Anthropic Cover Letter](outreach/THEOS_Anthropic_Cover_Letter_v1.0.md)** (example pitch)
-- **[Phase Zero Comparative Positioning](research/THEOS_Phase_Zero_Comparative_Positioning_v1.0.md)** (academic context)
+- **[/pitch/THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md](pitch/THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md)** (Start here)
+- **[/code/theos_governor.py](code/theos_governor.py)** (For engineers)
+- **[/evidence/BENCHMARKS.md](evidence/BENCHMARKS.md)** (Performance analysis)
+- **[/compliance/REGULATORY_COMPLIANCE_MAPPING.md](compliance/REGULATORY_COMPLIANCE_MAPPING.md)** (Regulatory alignment)
 
 ---
 
@@ -97,8 +90,6 @@ This repository is organized for different audiences:
 **Frederick Davis Stalnecker** is a U.S. musician, songwriter, inventor, and AI safety researcher. His work spans multiple disciplines, from headlining international music tours to pioneering governance-first AI architectures.
 
 - **ORCID:** [0009-0009-9063-7438](https://orcid.org/0009-0009-9063-7438)
-- **Wikipedia:** [Ric Steel](https://en.wikipedia.org/wiki/Ric_Steel)
-- **Official Website:** [RicSteel.com](http://www.RicSteel.com)
 
 ---
 
@@ -109,7 +100,7 @@ For research collaboration, licensing inquiries, or pilot deployments:
 **Frederick Davis Stalnecker**  
 **Email:** frederick.stalnecker@theosresearch.org  
 **Phone:** +1 (615) 642-6643  
-**GitHub:** [SirRicSteel/TheosResearch.org](https://github.com/SirRicSteel/TheosResearch.org)
+**GitHub:** [Frederick-Stalnecker/THEOS](https://github.com/Frederick-Stalnecker/THEOS)
 
 **N.D.A. available upon request.** Public materials require no N.D.A.
 

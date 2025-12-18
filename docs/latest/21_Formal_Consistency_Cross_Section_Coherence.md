@@ -169,7 +169,7 @@ These are existential threats.
 ------------------------------------------------------------
 
 A mind that believes two incompatible truths
-without awareness is broken.
+without consequence tracking is broken.
 
 THEOS must remain aware.
 

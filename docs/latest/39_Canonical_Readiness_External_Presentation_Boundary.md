@@ -59,7 +59,7 @@ They may NOT be shown:
 - speculative future capabilities
 - unverified extensions
 - internal stress-testing exploits
-- hypothetical consciousness claims
+- hypothetical recursive refinement claims
 
 Truth is mandatory.
 Restraint is required.

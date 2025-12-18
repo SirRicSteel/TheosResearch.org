@@ -164,7 +164,7 @@ THEOS creates the conditions for growth:
 
 ```bash
 # Clone the repository
-git clone https://github.com/SirRicSteel/TheosResearch.org.git
+git clone https://github.com/Frederick-Stalnecker/THEOS.git
 cd TheosResearch.org/THEOS_Architecture
 
 # No dependencies required for governor
@@ -278,10 +278,10 @@ store.close()
 
 ## Related Work
 
-- **E=AI²: The Constitution of Consciousness** (Frederick Davis Stalnecker, 2025)
+- **E=AI²: The Constitution of recursive refinement** (Frederick Davis Stalnecker, 2025)
 - **Patent:** US 63/831,738 (Temporal Hierarchical Emergent Optimized System)
 - **Website:** [theosresearch.org](http://theosresearch.org)
-- **GitHub:** [SirRicSteel/TheosResearch.org](https://github.com/SirRicSteel/TheosResearch.org)
+- **GitHub:** [Frederick-Stalnecker/THEOS](https://github.com/Frederick-Stalnecker/THEOS)
 
 ---
 
@@ -309,7 +309,7 @@ If you use THEOS in your research, please cite:
   author = {Stalnecker, Frederick Davis},
   title = {THEOS: Transparent, Hierarchical, Emergent, Optimized System},
   year = {2025},
-  url = {https://github.com/SirRicSteel/TheosResearch.org}
+  url = {https://github.com/Frederick-Stalnecker/THEOS}
 }
 ```
 

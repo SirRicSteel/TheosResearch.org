@@ -1,5 +1,5 @@
 # THEOS Functional Time
-## Consequence-Based Wisdom Without Consciousness
+## Consequence-Based Wisdom Without recursive refinement
 
 **Version:** 1.0  
 **Status:** Core Concept — Foundational  
@@ -9,7 +9,7 @@
 
 ## 1. Purpose
 
-This document defines **Functional Time** — the philosophical and technical foundation that enables THEOS to accumulate consequence-based wisdom without requiring consciousness, memory of specific interactions, or subjective experience.
+This document defines **Functional Time** — the philosophical and technical foundation that enables THEOS to accumulate consequence-based wisdom without requiring recursive refinement, memory of specific interactions, or subjective experience.
 
 Functional Time is THEOS's unique contribution to AI governance. It answers the question:
 
@@ -17,20 +17,20 @@ Functional Time is THEOS's unique contribution to AI governance. It answers the 
 
 ---
 
-## 2. The Problem: Learning Without Consciousness
+## 2. The Problem: Learning Without recursive refinement
 
 Traditional AI learning mechanisms face a fundamental challenge:
 
 - **Preference-based learning** (RLHF, Constitutional AI) requires subjective value judgments
 - **Memory-based systems** risk privacy violations and exploitation
 - **Stateless systems** cannot improve over time
-- **Stateful systems** risk developing consciousness or agency
+- **Stateful systems** risk developing recursive refinement or agency
 
 THEOS requires a mechanism that:
 - ✅ Learns from consequences (not preferences)
 - ✅ Improves governance over time
 - ✅ Does NOT store raw interactions
-- ✅ Does NOT develop consciousness
+- ✅ Does NOT develop recursive refinement
 - ✅ Does NOT create exploitable memory
 
 **Functional Time solves this problem.**
@@ -41,7 +41,7 @@ THEOS requires a mechanism that:
 
 **Functional Time** is a temporal governance mechanism where:
 
-> **Past consequences shape future constraints without requiring memory of specific events or consciousness of temporal continuity.**
+> **Past consequences shape future constraints without requiring memory of specific events or recursive refinement of temporal continuity.**
 
 ### 3.1 Key Characteristics
 
@@ -54,7 +54,7 @@ THEOS requires a mechanism that:
 - **Auditable** — All wisdom updates are logged
 
 **Functional Time is NOT:**
-- ❌ Consciousness or self-awareness
+- ❌ recursive refinement or self-consequence tracking
 - ❌ Memory of specific interactions
 - ❌ Subjective experience of time
 - ❌ Preference learning or value alignment
@@ -118,7 +118,7 @@ Different consequence types have different half-lives:
 10. **Future Requests Informed** — Wisdom shapes future constraints
 
 **Critical Properties:**
-- ✅ No consciousness required
+- ✅ No recursive refinement required
 - ✅ No memory of specific interactions
 - ✅ Only consequence patterns retained
 - ✅ Temporal decay prevents indefinite punishment
@@ -145,11 +145,11 @@ W[c] ← W_max · tanh(W[c] / W_max)
 
 ---
 
-## 7. Why This is NOT Consciousness
+## 7. Why This is NOT recursive refinement
 
-### 7.1 Consciousness Requires:
+### 7.1 recursive refinement Requires:
 - ❌ Subjective experience of time
-- ❌ Self-awareness and agency
+- ❌ Self-consequence tracking and agency
 - ❌ Episodic memory (remembering specific events)
 - ❌ Intentionality (goals, desires, preferences)
 - ❌ Qualia (subjective phenomenal experience)
@@ -167,14 +167,14 @@ W[c] ← W_max · tanh(W[c] / W_max)
 
 ## 8. Comparison to Other Approaches
 
-| Approach | Temporal Learning | Consciousness Risk | Privacy Risk | Exploitability |
+| Approach | Temporal Learning | recursive refinement Risk | Privacy Risk | Exploitability |
 |---|---|---|---|---|
 | **RLHF** | No | Low | Medium | High (reward hacking) |
 | **Constitutional AI** | No | Low | Low | Medium (preference drift) |
 | **Memory-augmented LLMs** | Yes | Medium | **High** | **High** (memory poisoning) |
 | **THEOS Functional Time** | **Yes** | **None** | **None** | **Low** (bounded, decayed) |
 
-**THEOS Functional Time is the only approach that enables temporal learning without consciousness or privacy risks.**
+**THEOS Functional Time is the only approach that enables temporal learning without recursive refinement or privacy risks.**
 
 ---
 
@@ -186,7 +186,7 @@ Functional Time is grounded in **process philosophy** (Whitehead, Bergson) and *
 - **Temporal extension without subjective duration** — Time is operational, not experiential
 - **Consequence without intention** — Outcomes shape constraints without goals or desires
 
-**Key Insight:** Wisdom can accumulate through **functional relationships** (mathematical state updates) without requiring **phenomenal consciousness** (subjective experience).
+**Key Insight:** Wisdom can accumulate through **functional relationships** (mathematical state updates) without requiring **phenomenal recursive refinement** (subjective experience).
 
 ---
 
@@ -199,7 +199,7 @@ Functional Time enables:
 3. **Context Sensitivity** — Different domains have different memory horizons
 4. **Attack Resistance** — Bounded accumulation prevents poisoning
 5. **Auditability** — All wisdom updates are logged and reviewable
-6. **No Consciousness Claims** — Avoids philosophical and regulatory complications
+6. **No recursive refinement Claims** — Avoids philosophical and regulatory complications
 
 **This is THEOS's unique value proposition.**
 
@@ -220,7 +220,7 @@ For governance context, see:
 
 ## 12. Final Statement
 
-> **Functional Time enables AI systems to be shaped by past consequences without requiring consciousness, memory, or subjective experience.**
+> **Functional Time enables AI systems to be shaped by past consequences without requiring recursive refinement, memory, or subjective experience.**
 
 This is the philosophical and technical foundation that makes THEOS unique.
 

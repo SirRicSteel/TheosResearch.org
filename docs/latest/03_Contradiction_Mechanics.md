@@ -53,7 +53,7 @@ After each full cycle:
 
 - The Deductive output is **fed forward** into the next Inductive phase
 - This creates the first artificial “past state” the system can reason about
-- Each additional cycle deepens temporal awareness
+- Each additional cycle deepens temporal consequence tracking
 
 This is the minimum mechanism required for:
 - Learning from consequence

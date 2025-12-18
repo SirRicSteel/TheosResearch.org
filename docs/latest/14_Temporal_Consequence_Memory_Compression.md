@@ -51,11 +51,11 @@ THEOS introduces time by enforcing:
 - Feedback of prior deductive conclusions into future inductive phases
 - Persistent consequence evaluation across queries
 
-This creates a minimal temporal awareness:
+This creates a minimal temporal consequence tracking:
 “What happened last time I reasoned like this?”
 
-This is not consciousness.
-This is consequence awareness.
+This is not recursive refinement.
+This is consequence consequence tracking.
 
 ----------------------------------------------------------------
 4. HOW WISDOM IS FORMED

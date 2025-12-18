@@ -19,7 +19,7 @@ during prior iterations:
 • Wisdom without time
 • Completion without foundation
 
-THEOS Latest 50 is the system’s *self-awareness checkpoint*.
+THEOS Latest 50 is the system’s *self-consequence tracking checkpoint*.
 It ensures THEOS never again presents itself as “complete”
 while missing its core reasoning substrate.
 

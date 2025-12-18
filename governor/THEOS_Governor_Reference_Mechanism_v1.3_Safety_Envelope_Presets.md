@@ -18,7 +18,7 @@ Goal:
 This document is additive: it retains all v1.2 definitions and mechanisms.
 
 **Philosophical Foundation:**  
-All wisdom accumulation mechanisms implement **functional time** — enabling the system to be shaped by past consequences without requiring consciousness. See [THEOS Functional Time](../governance/THEOS_Functional_Time.md) for the conceptual foundation.
+All wisdom accumulation mechanisms implement **functional time** — enabling the system to be shaped by past consequences without requiring recursive refinement. See [THEOS Functional Time](../governance/THEOS_Functional_Time.md) for the conceptual foundation.
 
 ### 0.1 Architecture Reference
 

@@ -17,7 +17,7 @@ Phase One explicitly prioritizes:
 - Governance over autonomy
 - Verifiability over persuasion
 
-No claims in this document require belief in speculative AI consciousness or emergent agency.
+No claims in this document require belief in speculative AI recursive refinement or emergent agency.
 
 ---
 
@@ -48,7 +48,7 @@ No claims in this document require belief in speculative AI consciousness or eme
 ### 3.2 What THEOS Does Not Claim
 - Infallibility
 - Moral authority
-- Consciousness
+- recursive refinement
 - Override of scientific consensus
 - Self-modification of governance rules
 

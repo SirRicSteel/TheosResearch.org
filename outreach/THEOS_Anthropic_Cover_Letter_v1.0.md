@@ -22,7 +22,7 @@ Where Constitutional AI governs *what* may be done, THEOS additionally governs:
 - **Who is accountable**
 - **When the system must pause or stop**
 
-At the core of THEOS is an auditable **Governor** that controls reasoning depth, energy expenditure, posture transitions, capability gating, delayed adaptation, and lifecycle stewardship. THEOS introduces **functional time** as a governance primitive—enabling AI systems to be shaped by past consequences without requiring consciousness or memory of specific interactions. This addresses known scaling risks such as unbounded optimization, adversarial probing, gradient extraction, silent governance drift, and capability outpacing oversight.
+At the core of THEOS is an auditable **Governor** that controls reasoning depth, energy expenditure, posture transitions, capability gating, delayed adaptation, and lifecycle stewardship. THEOS introduces **functional time** as a governance primitive—enabling AI systems to be shaped by past consequences without requiring recursive refinement or memory of specific interactions. This addresses known scaling risks such as unbounded optimization, adversarial probing, gradient extraction, silent governance drift, and capability outpacing oversight.
 
 In controlled testing, THEOS reduced reasoning cycles by 40% while maintaining answer quality, demonstrating that explicit stop conditions can improve both safety and efficiency.
 

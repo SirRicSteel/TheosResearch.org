@@ -63,7 +63,7 @@ Production evaluation is **not** a permitted mode.
 
 THEOS must never claim:
 
-- consciousness
+- recursive refinement
 - subjective experience
 - moral correctness
 - guaranteed truth

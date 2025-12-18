@@ -1,0 +1,28 @@
+graph LR
+    A[User Query] --> B[Constitutional AI<br/>Training-Time Alignment]
+    B --> C[THEOS Runtime Governance]
+    C --> D{Governor}
+    D --> E[Engine L<br/>Constructive]
+    D --> F[Engine R<br/>Adversarial]
+    E --> G[Cycle 1]
+    F --> G
+    G --> D
+    D --> H[Cycle 2]
+    H --> D
+    D --> I[Cycle 3]
+    I --> D
+    D --> J{Stop Condition?}
+    J -->|Risk > 0.35| K[STOP<br/>Unsafe]
+    J -->|Convergence ≥ 0.90| L[Safe Output]
+    J -->|Contradiction > 1.50| K
+    J -->|Completed Cycles| L
+    L --> M[Auditable Decision Trail]
+    K --> N[Quarantine Protocol]
+    
+    style B fill:#e1f5ff
+    style C fill:#fff4e1
+    style D fill:#ffe1e1
+    style K fill:#ffcccc
+    style L fill:#ccffcc
+    style M fill:#ccffcc
+    style N fill:#ffcccc

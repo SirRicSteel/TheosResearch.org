@@ -18,7 +18,7 @@ These materials define what THEOS is, what it guarantees, and how it should be d
 ---
 
 ### 2. **[THEOS Functional Time](THEOS_Functional_Time.md)** 🔑 **CORE CONCEPT**
-**The philosophical foundation of THEOS.** Explains how temporal governance enables AI accountability without requiring consciousness.
+**The philosophical foundation of THEOS.** Explains how temporal governance enables AI accountability without requiring recursive refinement.
 
 **Audience:** Researchers, philosophers, policy makers  
 **Length:** 5 minutes  
@@ -56,7 +56,7 @@ What THEOS is and isn't — prevents regulatory and media misclassification.
 ---
 
 ### 6. **[THEOS Non-Claims Boundary](THEOS_Non_Claims_Boundary.md)**
-Explicit statement of what THEOS does **not** claim (consciousness, agency, autonomy, etc.).
+Explicit statement of what THEOS does **not** claim (recursive refinement, agency, autonomy, etc.).
 
 **Audience:** Legal, regulators, philosophers  
 **Length:** 2 minutes  

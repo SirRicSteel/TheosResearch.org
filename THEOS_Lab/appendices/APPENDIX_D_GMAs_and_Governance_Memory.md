@@ -13,7 +13,7 @@ A GMA is a compact governance-relevant unit derived from experience (e.g., a sto
 - be **portable** across tasks and domains (where appropriate)
 - be **auditable** (source trace and rationale)
 - have **bounded influence** (cannot override hard safety/risk ceilings)
-- support **time-awareness** by allowing the system to reference what it previously learned as “momentary past”
+- support **time-consequence tracking** by allowing the system to reference what it previously learned as “momentary past”
 
 ## Implementation Notes (Model-Agnostic)
 - Maintain a small ledger of GMAs keyed by scenario class and risk profile.

@@ -38,7 +38,7 @@
 ### ❌ Do Not Use
 - Code repositories (keep technical)
 - Legal documents (use institutional branding)
-- Any context that might imply consciousness claims
+- Any context that might imply recursive refinement claims
 
 ---
 
@@ -53,11 +53,11 @@
 
 ### Key Positioning
 - **What THEOS is:** A governance layer for AI systems
-- **What THEOS does:** Enables consequence-based wisdom without consciousness
+- **What THEOS does:** Enables consequence-based wisdom without recursive refinement
 - **What THEOS provides:** Posture-based safety, functional time, cumulative wisdom
 
 ### What NOT to Say
-- ❌ "AI Consciousness" (THEOS does not claim consciousness)
+- ❌ "AI recursive refinement" (THEOS does not claim recursive refinement)
 - ❌ "Self-aware AI" (THEOS is not sentient)
 - ❌ "Memory-based learning" (use "wisdom state" instead)
 

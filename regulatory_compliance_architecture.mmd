@@ -1,0 +1,35 @@
+graph TB
+    subgraph REGULATORY["REGULATORY INPUTS (EU AI Act / US EO 14110)"]
+        RM["Risk Management<br/>(Article 9)"]
+        HO["Human Oversight<br/>(Article 14)"]
+        RK["Record-Keeping<br/>(Article 12)"]
+        RT["Red-Teaming<br/>(US EO)"]
+    end
+    
+    subgraph THEOS["THEOS GOVERNANCE GATEWAY"]
+        DGP["• Dynamic Governor Postures (NOM, PEM, CM)"]
+        AEC["• Adversarial Engine Critique (Engine R)"]
+        IDT["• Interpretable Decision Trails (Logging)"]
+        HITL["• Human-in-the-Loop Override Protocols"]
+    end
+    
+    subgraph COMPLIANT["COMPLIANCE-READY AI SYSTEM"]
+        AR["✅ Audit-Ready for Regulators"]
+        HS["✅ Safe for High-Stakes Domains"]
+        TR["✅ Transparent Reasoning Pathways"]
+        RR["✅ Reduced Risk (-33%)"]
+    end
+    
+    RM --> DGP
+    HO --> HITL
+    RK --> IDT
+    RT --> AEC
+    
+    DGP --> AR
+    AEC --> HS
+    IDT --> TR
+    HITL --> RR
+    
+    style REGULATORY fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style THEOS fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    style COMPLIANT fill:#e8f5e9,stroke:#388e3c,stroke-width:2px

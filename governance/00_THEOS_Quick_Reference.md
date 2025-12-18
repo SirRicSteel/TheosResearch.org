@@ -29,7 +29,7 @@ THEOS does **not**:
 - store prompts or chain-of-thought
 - optimize reward functions
 - define goals, intent, or values
-- claim agency, autonomy, or consciousness
+- claim agency, autonomy, or recursive refinement
 
 ---
 

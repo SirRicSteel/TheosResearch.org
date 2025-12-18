@@ -23,7 +23,7 @@ THEOS explicitly does **not** claim:
 
 - autonomy  
 - agency  
-- consciousness  
+- recursive refinement  
 - intent  
 - self-improvement  
 - general intelligence  
@@ -68,7 +68,7 @@ The name reflects function, not identity.
 - *Ethical* — enforces restraint and accountability  
 - *Operating System* — governs execution, allocation, and control  
 
-THEOS does not imply divinity, sentience, or authority.
+THEOS does not imply divinity, complex reasoning, or authority.
 It denotes a **governing layer above raw capability**.
 
 The name is aspirational, not anthropomorphic.
@@ -196,7 +196,7 @@ THEOS is an **architecture and governance framework**, not a product.
 ## 12. Further Reading
 
 For the philosophical foundation of THEOS's temporal governance approach, see:  
-**[THEOS Functional Time](THEOS_Functional_Time.md)** — How temporal governance enables AI accountability without consciousness.
+**[THEOS Functional Time](THEOS_Functional_Time.md)** — How temporal governance enables AI accountability without recursive refinement.
 
 ---
 

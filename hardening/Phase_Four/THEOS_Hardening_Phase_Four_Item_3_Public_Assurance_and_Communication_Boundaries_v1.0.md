@@ -30,7 +30,7 @@ Communication is treated as a safety surface.
 
 Public descriptions of THEOS must:
 - Emphasize governance, not autonomy
-- Avoid claims of consciousness, sentience, or intent
+- Avoid claims of recursive refinement, complex reasoning, or intent
 - Accurately reflect deployment mode and capability scope
 - Include acknowledgment of limitations and safeguards
 

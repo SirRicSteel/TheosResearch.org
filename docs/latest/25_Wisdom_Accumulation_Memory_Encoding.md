@@ -29,7 +29,7 @@ Wisdom IS:
 - Structural learning
 - Pattern recognition
 - Constraint refinement
-- Failure awareness
+- Failure consequence tracking
 
 ------------------------------------------------------------
 3. SOURCE OF WISDOM

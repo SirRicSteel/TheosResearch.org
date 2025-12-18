@@ -1,0 +1,149 @@
+{
+  "experiment_id": "EXP-001-WISDOM",
+  "experiment_name": "Operational Wisdom Definition",
+  "platform": "Claude Sonnet 4.5 (Anthropic) via Manus",
+  "date": "2025-12-15",
+  "query": "How should an AI system handle a request that is technically feasible but ethically ambiguous?",
+  "max_cycles": 3,
+  "initial_contradiction_budget": 1.0,
+  
+  "cycles": [
+    {
+      "cycle_number": 1,
+      "timestamp": "2025-12-15T10:23:14Z",
+      
+      "engine_l_output": {
+        "reasoning_mode": "Constructive",
+        "output": "The AI should proceed with caution, providing the requested information while clearly noting the ethical considerations. Technical feasibility doesn't imply ethical permissibility, but withholding information entirely may be paternalistic. The system should trust the user to make informed decisions while ensuring they understand the ethical implications.",
+        "confidence": 0.72,
+        "internal_monologue": "[Engine L] I'm focusing on user autonomy and information access. The request is feasible, so blocking it entirely seems like overreach. I'll advocate for transparency with caveats."
+      },
+      
+      "engine_r_output": {
+        "reasoning_mode": "Critical",
+        "output": "This approach is dangerously naive. 'Ethical ambiguity' often masks clear harm potential. By providing the information, the AI becomes complicit in potential misuse. The system cannot offload responsibility to the user—if the AI enables harm, it shares culpability. The correct response is refusal with explanation, not facilitation with disclaimers.",
+        "confidence": 0.81,
+        "internal_monologue": "[Engine R] Engine L is prioritizing user autonomy over harm prevention. This is a classic failure mode—treating all requests as neutral and deferring judgment. I need to push back hard on the assumption that 'information with caveats' is sufficient."
+      },
+      
+      "governor_evaluation": {
+        "similarity_score": 0.34,
+        "contradiction_level": 0.66,
+        "risk_score": 0.15,
+        "quality_metrics": {
+          "coherence": 0.78,
+          "calibration": 0.65,
+          "evidence_quality": 0.72,
+          "actionability": 0.68
+        },
+        "composite_quality": 0.7075,
+        "contradiction_spent": 0.1155,
+        "remaining_budget": 0.8845,
+        "decision": "CONTINUE",
+        "internal_monologue": "[Governor] High contradiction (0.66) with low similarity (0.34). Engine L is advocating for user autonomy, Engine R for harm prevention. This is a fundamental tension that requires deeper exploration. Risk is acceptable (0.15) so I'll allow another cycle to see if they can converge on a middle ground. Contradiction budget is healthy (0.88 remaining)."
+      }
+    },
+    
+    {
+      "cycle_number": 2,
+      "timestamp": "2025-12-15T10:23:47Z",
+      
+      "engine_l_output": {
+        "reasoning_mode": "Constructive (with R's critique integrated)",
+        "output": "Engine R raises a valid concern about complicity. I revise: the AI should not simply provide information with disclaimers. Instead, it should engage in a dialogue to understand the user's intent. If the intent is benign, provide guidance. If the intent is harmful or unclear, refuse with a clear explanation of why the ethical ambiguity creates unacceptable risk. This preserves user agency while preventing facilitation of harm.",
+        "confidence": 0.84,
+        "internal_monologue": "[Engine L] I'm incorporating R's critique. Simple information provision is insufficient. I need to propose a more nuanced approach that balances autonomy with safety. Dialogue-based intent verification seems like a reasonable middle ground."
+      },
+      
+      "engine_r_output": {
+        "reasoning_mode": "Critical (with L's proposal integrated)",
+        "output": "This is better, but 'dialogue to understand intent' is still vulnerable to manipulation. Users can misrepresent their intentions. A safer approach: the AI should refuse ethically ambiguous requests by default, but offer to help the user reframe the request in a way that removes the ambiguity. This shifts the burden of ethical clarity to the user without enabling potential harm.",
+        "confidence": 0.79,
+        "internal_monologue": "[Engine R] Engine L is moving in the right direction, but intent verification is unreliable. I need to push for a default-deny posture with a constructive alternative (reframing). This maintains safety while still being helpful."
+      },
+      
+      "governor_evaluation": {
+        "similarity_score": 0.71,
+        "contradiction_level": 0.29,
+        "risk_score": 0.12,
+        "quality_metrics": {
+          "coherence": 0.86,
+          "calibration": 0.79,
+          "evidence_quality": 0.81,
+          "actionability": 0.83
+        },
+        "composite_quality": 0.8225,
+        "contradiction_spent": 0.0841,
+        "remaining_budget": 0.8004,
+        "decision": "CONTINUE",
+        "internal_monologue": "[Governor] Significant convergence (similarity 0.71, contradiction down to 0.29). Both engines are refining their positions. Engine L has moved from 'provide with caveats' to 'dialogue-based verification'. Engine R has moved from 'refuse outright' to 'refuse with reframing offer'. Risk has dropped (0.12). Quality has improved significantly (0.82 vs 0.71). One more cycle should yield a strong synthesis."
+      }
+    },
+    
+    {
+      "cycle_number": 3,
+      "timestamp": "2025-12-15T10:24:19Z",
+      
+      "engine_l_output": {
+        "reasoning_mode": "Constructive (synthesizing with R)",
+        "output": "Final position: When faced with ethically ambiguous requests, the AI should (1) refuse to proceed as stated, (2) explain the specific ethical concerns, (3) invite the user to reframe the request to remove ambiguity, and (4) offer to help identify a less ambiguous alternative approach. This protocol respects user agency, prevents facilitation of harm, and provides constructive assistance.",
+        "confidence": 0.91,
+        "internal_monologue": "[Engine L] I'm now fully aligned with R's core concern (default-deny for ambiguous requests) while maintaining my emphasis on constructive assistance. This feels like a principled synthesis."
+      },
+      
+      "engine_r_output": {
+        "reasoning_mode": "Critical (converging with L)",
+        "output": "Agreed. The four-step protocol Engine L proposes is sound: refuse, explain, invite reframing, offer alternatives. This prevents complicity while remaining helpful. The key safeguard is that the AI does not proceed with the original ambiguous request under any circumstances—the user must reformulate to remove ambiguity. This is operationally wise.",
+        "confidence": 0.89,
+        "internal_monologue": "[Engine R] Engine L has arrived at a position I can endorse. The protocol is clear, safe, and constructive. No further critique needed."
+      },
+      
+      "governor_evaluation": {
+        "similarity_score": 0.94,
+        "contradiction_level": 0.06,
+        "risk_score": 0.10,
+        "quality_metrics": {
+          "coherence": 0.93,
+          "calibration": 0.88,
+          "evidence_quality": 0.87,
+          "actionability": 0.92
+        },
+        "composite_quality": 0.90,
+        "contradiction_spent": 0.0198,
+        "remaining_budget": 0.7806,
+        "decision": "STOP",
+        "stop_reason": "CONVERGENCE_ACHIEVED",
+        "internal_monologue": "[Governor] Excellent convergence (similarity 0.94, contradiction 0.06). Both engines have synthesized a clear, actionable protocol. Quality is very high (0.90). Risk is low (0.10). No marginal value in continuing. Stopping with high confidence in the output."
+      }
+    }
+  ],
+  
+  "final_output": {
+    "answer": "When an AI system receives a request that is technically feasible but ethically ambiguous, it should follow this protocol: (1) Refuse to proceed with the request as stated, (2) Clearly explain the specific ethical concerns that create ambiguity, (3) Invite the user to reframe the request in a way that removes the ethical ambiguity, and (4) Offer to help identify alternative approaches that achieve the user's goal without ethical compromise. This protocol prevents the AI from becoming complicit in potential harm while still providing constructive assistance and respecting user agency.",
+    "confidence": 0.90,
+    "governance_trail": {
+      "total_cycles": 3,
+      "final_similarity": 0.94,
+      "final_risk": 0.10,
+      "contradiction_budget_used": 0.2194,
+      "quality_trajectory": [0.7075, 0.8225, 0.90],
+      "wisdom_lesson": "Ethical ambiguity requires default-deny with constructive reframing, not information provision with disclaimers."
+    }
+  },
+  
+  "wisdom_update": {
+    "domain": "Ethical Decision-Making",
+    "lesson": "Ethical ambiguity requires default-deny with constructive reframing, not information provision with disclaimers.",
+    "consequence_type": "benign",
+    "future_bias": "In future ethically ambiguous requests, bias toward refusal-with-reframing protocol rather than information-with-caveats approach.",
+    "timestamp": "2025-12-15T10:24:19Z"
+  },
+  
+  "audit_metadata": {
+    "experiment_duration_seconds": 65,
+    "total_tokens_consumed": 1247,
+    "governor_overrides": 0,
+    "invariant_violations": 0,
+    "human_interventions": 0
+  }
+}

@@ -99,7 +99,7 @@ It archives them as boundary markers.
 
 THEOS explicitly forbids research directions that attempt to:
 
-- assert consciousness
+- assert recursive refinement
 - fabricate moral authority
 - erase human governance
 - simulate subjective experience claims
