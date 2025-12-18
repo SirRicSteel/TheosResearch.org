@@ -113,7 +113,7 @@
 │  ┌────────────────────────────────────────────────────┐            │
 │  │  Contact: Frederick Davis Stalnecker              │            │
 │  │  ORCID: 0009-0009-9063-7438                        │            │
-│  │  Patent: U.S. 18/919,771                           │            │
+│  │  Patent: U.S. Patent Application Serial No. 18/919,771                           │            │
 │  │  GitHub: github.com/Frederick-Stalnecker/THEOS    │            │
 │  └────────────────────────────────────────────────────┘            │
 │                                                                     │

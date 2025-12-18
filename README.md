@@ -23,7 +23,7 @@
 
 **Quick Links:**
 - **ORCID:** [0009-0009-9063-7438](https://orcid.org/0009-0009-9063-7438)
-- **Patent:** U.S. Application No. 18/919,771
+- **Patent:** U.S. Patent Application Serial No. 18/919,771
 - **Public Research:** [https://github.com/Frederick-Stalnecker/THEOS](https://github.com/Frederick-Stalnecker/THEOS)
 - **GitHub Pages:** [https://frederick-stalnecker.github.io/THEOS/](https://frederick-stalnecker.github.io/THEOS/)
 

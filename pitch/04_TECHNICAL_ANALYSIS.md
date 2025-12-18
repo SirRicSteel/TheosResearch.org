@@ -449,7 +449,7 @@ ORCID: 0009-0009-9063-7438
 - Cross-platform validation sessions
 
 **Patent Information:**
-- U.S. Patent Application No. 18/919,771
+- U.S. Patent Application Serial No. 18/919,771
 - Attorney: James H. Patterson, Patterson Thuente Pedersen
 
 ---

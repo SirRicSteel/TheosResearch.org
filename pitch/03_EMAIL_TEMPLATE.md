@@ -62,7 +62,7 @@ LinkedIn: linkedin.com/in/theosresearch
 GitHub: github.com/Frederick-Stalnecker/THEOS
 
 ORCID: 0009-0009-9063-7438  
-Patent: U.S. Application No. 18/919,771 (Attorney: James H. Patterson)
+Patent: U.S. Patent Application Serial No. 18/919,771 (Attorney: James H. Patterson)
 
 ---
 
@@ -109,6 +109,6 @@ All proceeds from any partnership go to a 508(c) public charity for humanitarian
 Best,
 Frederick
 
-P.S. - U.S. Patent Application No. 18/919,771 filed, so this is protected IP we're exploring for strategic partnership.
+P.S. - U.S. Patent Application Serial No. 18/919,771 filed, so this is protected IP we're exploring for strategic partnership.
 
 ---

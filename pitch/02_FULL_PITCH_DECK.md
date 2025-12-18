@@ -239,7 +239,7 @@ Your Constitutional AI work demonstrates a commitment to principled AI safety. T
 **Frederick Davis Stalnecker** is a research scientist and inventor with multiple U.S. patents including biodegradable fishing systems and texting safety systems. He was among the first 10,000 testers of ChatGPT in 2021, which sparked a three-year research journey resulting in THEOS. 
 
 - **ORCID:** 0009-0009-9063-7438
-- **Patent Application:** U.S. Patent Application No. 18/919,771
+- **Patent Application:** U.S. Patent Application Serial No. 18/919,771
 - **Patent Attorney:** James H. Patterson, Patterson Thuente Pedersen
 - **Public Research:** https://github.com/Frederick-Stalnecker/THEOS
 - **Mission:** All proceeds from THEOS partnerships directed to 508(c) public charity for humanitarian work

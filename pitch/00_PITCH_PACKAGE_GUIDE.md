@@ -198,7 +198,7 @@ When discussing THEOS, always lead with these validated results:
 ## 🔐 Intellectual Property Protection
 
 **You are protected:**
-- ✅ U.S. Patent Application No. 18/919,771 filed
+- ✅ U.S. Patent Application Serial No. 18/919,771 filed
 - ✅ Patent attorney: James H. Patterson, Patterson Thuente Pedersen
 - ✅ Public research published July 13, 2025 (establishes prior art)
 - ✅ Provisional patent deadline: June 27, 2026
