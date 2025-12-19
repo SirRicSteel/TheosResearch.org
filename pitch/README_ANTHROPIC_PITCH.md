@@ -81,6 +81,8 @@ Located in `/research/`:
 
 ### For Anthropic Leadership (30 minutes)
 
+**TL;DR:** *Is a 6-month, $70K validation of THEOS overlay on Claude worth exploring for differentiated enterprise safety?*
+
 **Read:**
 1. EXECUTIVE_SUMMARY_ANTHROPIC.md (10 min)
 2. 6_MONTH_COLLABORATION_PROPOSAL.md (10 min)
@@ -92,6 +94,8 @@ Located in `/research/`:
 ---
 
 ### For Anthropic Research Team (2-3 hours)
+
+**TL;DR:** *Can we independently replicate the 33% risk reduction and 56% convergence improvement claims on Claude Sonnet 4.5?*
 
 **Read:**
 1. EXECUTIVE_SUMMARY_ANTHROPIC.md (full)
@@ -111,6 +115,8 @@ Located in `/research/`:
 ---
 
 ### For Anthropic Engineering Team (4-6 hours)
+
+**TL;DR:** *What would it take to integrate THEOS Governor with Claude + tools in a production pilot environment?*
 
 **Read:**
 1. All core pitch materials (1-5 above)
@@ -179,7 +185,10 @@ Located in `/research/`:
 - Month 3-4: Pilot deployment (medical diagnosis support)
 - Month 5-6: Production readiness assessment
 
-**Investment:** ~$70K (Anthropic), ~$150K value (THEOS contribution)
+**Cost/Value:**
+- **Anthropic investment:** ~$70K (compute + 2-3 researchers, 50% time, 6 months)
+- **THEOS contribution:** ~$150K value (test suite, integration support, technical consultation)
+- **Potential return:** $500K-$2M (differentiated product, regulatory framework, research leadership)
 
 **Decision points:** Month 2, 4, 6 (clear success/fail criteria, off-ramps)
 
