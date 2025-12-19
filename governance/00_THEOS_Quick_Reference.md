@@ -7,7 +7,7 @@ It governs *how* intelligence is applied — not *what* the intelligence is.
 ---
 
 ## THEOS in One Sentence
-> THEOS constrains, allocates, and audits reasoning produced by other AI systems.
+> THEOS constrains, allocates, and audits reasoning in any AI system.
 
 ---
 
