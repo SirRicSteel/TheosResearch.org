@@ -81,7 +81,7 @@ Located in `/research/`:
 
 ### For Anthropic Leadership (30 minutes)
 
-**TL;DR:** *Should Anthropic evaluate THEOS for potential acquisition given its validated safety improvements on Claude?*
+**TL;DR:** *Does THEOS's approach to runtime governance align with Anthropic's safety roadmap? Worth evaluating for potential acquisition?*
 
 **Read:**
 1. EXECUTIVE_SUMMARY_ANTHROPIC.md (10 min)
@@ -95,7 +95,7 @@ Located in `/research/`:
 
 ### For Anthropic Research Team (2-3 hours)
 
-**TL;DR:** *Can we independently replicate the 33% risk reduction and 56% convergence improvement claims on Claude Sonnet 4.5?*
+**TL;DR:** *Can we independently validate the reported safety improvements (33% risk reduction, 56% convergence) on Claude Sonnet 4.5?*
 
 **Read:**
 1. EXECUTIVE_SUMMARY_ANTHROPIC.md (full)

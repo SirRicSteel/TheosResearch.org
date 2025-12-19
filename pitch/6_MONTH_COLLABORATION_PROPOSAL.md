@@ -8,13 +8,13 @@
 
 ## Executive Summary
 
-**What:** Evaluation process for Anthropic to independently validate THEOS capabilities on Claude Sonnet 4.5 and assess acquisition value
+**What:** Proposed evaluation process for Anthropic to independently assess THEOS runtime governance on Claude Sonnet 4.5
 
-**Why:** THEOS demonstrates 33% risk reduction and 56% convergence improvement across 6 AI platforms; independent validation would confirm capabilities and inform acquisition decision
+**Why:** Preliminary testing suggests meaningful safety improvements (33% risk reduction, 56% convergence improvement across 6 platforms); independent validation by Anthropic would establish credibility and inform strategic decisions
 
-**Process:** Independent validation → Technical evaluation → Acquisition assessment
+**Approach:** Independent validation → Technical assessment → Strategic evaluation
 
-**Outcome:** Understanding of THEOS capabilities, limitations, and strategic value for potential acquisition
+**Goal:** Clear understanding of THEOS capabilities, limitations, and potential fit with Anthropic's safety roadmap
 
 ---
 
