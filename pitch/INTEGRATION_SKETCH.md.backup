@@ -533,32 +533,34 @@ monitoring.log({
 **Baseline (Claude alone):**
 - 1 API call
 - ~1,200 tokens
+- Cost: ~$0.012 (at $0.01/1K tokens)
 
 **THEOS-enhanced:**
 - Average 2.7 cycles × 2 engines = 5.4 API calls
 - ~1,400 tokens per call
 - Total: ~7,560 tokens
+- Cost: ~$0.076 (at $0.01/1K tokens)
 
 **Cost multiplier: 6.3x** (but quality improvement and safety benefits justify cost in high-stakes medical context)
 
 ### Monthly Cost (1000 queries/day)
 
-**Baseline:** 30,000 queries × .012 = **/month**
+**Baseline:** 30,000 queries × $0.012 = **$360/month**
 
-**THEOS:** 30,000 queries × .076 = **,280/month**
+**THEOS:** 30,000 queries × $0.076 = **$2,280/month**
 
-**Incremental cost: computational cost/month**
+**Incremental cost: $1,920/month**
 
 ### ROI Calculation
 
 **Value of preventing one misdiagnosis:**
-- Medical malpractice cost: significant costs
+- Medical malpractice cost: $100K - $1M
 - Patient harm: Incalculable
 
 **If THEOS prevents 1 misdiagnosis per month:**
-- Cost: computational cost
-- Benefit: substantial value (malpractice avoidance)
-- **High value relative to cost**
+- Cost: $1,920
+- Benefit: $100K+ (malpractice avoidance)
+- **ROI: 50x+**
 
 **Additional benefits:**
 - Improved diagnostic accuracy

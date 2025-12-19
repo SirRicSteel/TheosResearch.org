@@ -239,25 +239,25 @@ THEOS has been tested on 6 AI platforms:
 
 **Deliverable:** Production readiness assessment and deployment plan
 
-### Investment and Return
+### Evaluation Process
 
-**Anthropic investment (6 months):**
-- Compute: ~$50K (validation and pilot)
-- Engineering: 2-3 researchers, 1 engineer (50% time)
-- Infrastructure: Pilot environment setup
+**Available Now (in this pitch):**
+- Documented validation results across 6 AI platforms
+- Technical architecture and methodology
+- Benchmark data and test protocols
+- Performance analysis and use cases
 
-**THEOS contribution:**
-- Architecture and methodology (no cost)
-- Integration support (no cost)
-- Reference implementation (open source)
+**After NDA:**
+- Full source code access
+- Reference implementation
+- Integration specifications
+- Technical consultation
 
-**Potential return:**
+**Potential Outcome:**
 - Validated safety architecture for Claude
-- Differentiated enterprise offering
 - Regulatory compliance framework
-- Research publication and field leadership
-
-**Risk:** If validation fails or pilot shows insufficient benefit, collaboration concludes with joint publication of findings (still valuable for field).
+- Contribution to AI safety field
+- Potential acquisition opportunity
 
 ---
 
@@ -283,12 +283,12 @@ If overlay validation is successful, we propose exploring **native THEOS archite
 **Only pursue if overlay validation succeeds.**
 
 **Phased development:**
-1. Small-scale prototype (1-7B parameters) - 6 months, $2-3M
+1. Small-scale prototype (1-7B parameters) - 6 months, 
 2. Validate training methodology and measure efficiency
 3. Decision point: Continue to production scale or optimize overlay
 
 **Timeline:** 18-24 months  
-**Investment:** $15-20M (compute and engineering)  
+**Investment:**  (compute and engineering)  
 **Risk:** High (unproven architecture)
 
 **We propose discussing native THEOS only after successful overlay validation.**
@@ -309,7 +309,7 @@ If overlay validation is successful, we propose exploring **native THEOS archite
 - Wisdom governance formalization
 
 **Timeline:** 12-18 months  
-**Resources:** Modest ($2-3M)  
+**Resources:** Modest ()  
 **Confidence:** High (building on validated work)
 
 **This is what we're asking Anthropic to collaborate on NOW.**
@@ -324,7 +324,7 @@ If overlay validation is successful, we propose exploring **native THEOS archite
 - Efficiency measurement vs. overlay
 
 **Timeline:** 18-36 months  
-**Resources:** Significant ($15-20M)  
+**Resources:** Significant ()  
 **Confidence:** Medium (architectural reasoning, unproven)
 
 **This is a research bet to explore IF overlay succeeds.**
@@ -339,7 +339,7 @@ If overlay validation is successful, we propose exploring **native THEOS archite
 - Multi-modal governance (vision, code, real-time)
 
 **Timeline:** 36-60 months  
-**Resources:** Significant ($5-10M)  
+**Resources:** Significant ()  
 **Confidence:** Low (speculative, requires extensive validation)
 
 **This is future research, not part of current ask.**
@@ -458,10 +458,10 @@ Both organizations:
 - 10-15% quality increase
 - Tested on Claude Sonnet 4.5
 
-**What we're asking:**
-- 6-month joint validation and pilot
-- Modest investment ($50K compute, 2-3 researchers)
-- Clear decision points and success criteria
+**What we're proposing:**
+- Evaluate THEOS for potential acquisition
+- Independent validation of documented results
+- Access to full code and specifications after NDA
 
 **What Anthropic gets:**
 - Differentiated safety architecture

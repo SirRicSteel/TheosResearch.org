@@ -31,7 +31,7 @@ This pitch package contains everything Anthropic needs to evaluate THEOS and dec
 4. **6_MONTH_COLLABORATION_PROPOSAL.md** (14 pages)
    - Detailed plan: validation → pilot → production readiness
    - Resources, timeline, decision points, success criteria
-   - Clear ask: ~$70K investment, 2-3 researchers (50% time)
+   - Evaluation guide for potential acquisition
    - Off-ramps at Month 2, 4, 6
 
 5. **RESEARCH_FRONTIERS_BRIEF.md** (10 pages)
@@ -81,7 +81,7 @@ Located in `/research/`:
 
 ### For Anthropic Leadership (30 minutes)
 
-**TL;DR:** *Is a 6-month, $70K validation of THEOS overlay on Claude worth exploring for differentiated enterprise safety?*
+**TL;DR:** *Should Anthropic evaluate THEOS for potential acquisition given its validated safety improvements on Claude?*
 
 **Read:**
 1. EXECUTIVE_SUMMARY_ANTHROPIC.md (10 min)
@@ -185,12 +185,7 @@ Located in `/research/`:
 - Month 3-4: Pilot deployment (medical diagnosis support)
 - Month 5-6: Production readiness assessment
 
-**Cost/Value:**
-- **Anthropic investment:** ~$70K (compute + 2-3 researchers, 50% time, 6 months)
-- **THEOS contribution:** ~$150K value (test suite, integration support, technical consultation)
-- **Potential return:** $500K-$2M (differentiated product, regulatory framework, research leadership)
-
-**Decision points:** Month 2, 4, 6 (clear success/fail criteria, off-ramps)
+**Decision points:** Independent validation, technical evaluation, acquisition assessment
 
 ### What Anthropic Gets
 
@@ -202,7 +197,7 @@ Located in `/research/`:
 
 **If unsuccessful:**
 - Joint publication of findings (valuable for field)
-- Minimal investment ($70K vs. potential $500K-$2M return)
+- Clear understanding of THEOS capabilities and limitations
 
 ### Why Now
 

@@ -30,7 +30,7 @@ This document outlines research directions beyond the 6-month validation and pil
 5. **Wisdom governance formalization** - Curation protocols, audit mechanisms, drift detection
 
 **Timeline:** 12-18 months  
-**Resources:** Modest ($2-3M total, including Anthropic collaboration)  
+**Resources:** Modest ( total, including Anthropic collaboration)  
 **Confidence:** High (building on validated work)
 
 **Deliverables:**
@@ -63,7 +63,7 @@ This document outlines research directions beyond the 6-month validation and pil
 4. **Decision point** - Continue to production scale or optimize overlay
 
 **Timeline:** 18-36 months (only if Tier 1 succeeds)  
-**Resources:** Significant ($15-20M compute and engineering)  
+**Resources:** Significant ( compute and engineering)  
 **Confidence:** Medium (architectural reasoning, unproven empirically)
 
 **Deliverables:**
@@ -115,7 +115,7 @@ This document outlines research directions beyond the 6-month validation and pil
 **Status:** Theoretical framework developed, no empirical validation
 
 **Timeline:** 36-48 months (requires Tier 1 and 2 success)  
-**Resources:** Moderate ($3-5M)  
+**Resources:** Moderate ()  
 **Confidence:** Low (speculative, needs extensive validation)
 
 ---
@@ -143,7 +143,7 @@ This document outlines research directions beyond the 6-month validation and pil
 - Useful for highest-stakes contexts (existential risk, AGI safety)
 
 **Timeline:** 48-60 months (requires Tier 1 and 2 success)  
-**Resources:** Significant ($5-10M)  
+**Resources:** Significant ()  
 **Confidence:** Very low (highly speculative)
 
 **Prior art:** Documented in THEOS repository (timestamp: 2025-12-19)
@@ -168,7 +168,7 @@ This document outlines research directions beyond the 6-month validation and pil
 **Status:** Conceptual, no implementation
 
 **Timeline:** 36-48 months  
-**Resources:** Moderate ($2-4M)  
+**Resources:** Moderate ()  
 **Confidence:** Low (speculative)
 
 ---
@@ -190,7 +190,7 @@ This document outlines research directions beyond the 6-month validation and pil
 **Status:** Conceptual, no implementation
 
 **Timeline:** 36-60 months  
-**Resources:** Significant ($5-10M)  
+**Resources:** Significant ()  
 **Confidence:** Low (speculative, needs extensive validation)
 
 ---
@@ -213,7 +213,7 @@ This document outlines research directions beyond the 6-month validation and pil
 **Status:** Conceptual, no implementation
 
 **Timeline:** 48-60 months  
-**Resources:** Significant ($5-10M)  
+**Resources:** Significant ()  
 **Confidence:** Very low (highly speculative)
 
 ---
@@ -260,10 +260,10 @@ This document outlines research directions beyond the 6-month validation and pil
 
 | Tier | Timeline | Resources | Confidence |
 |------|----------|-----------|------------|
-| **Tier 1** | 12-18 months | $2-3M | High |
-| **Tier 2** | 18-36 months | $15-20M | Medium |
-| **Tier 3** | 36-60 months | $10-15M | Low |
-| **Total** | 5-6 years | **$27-38M** | Varies |
+| **Tier 1** | 12-18 months |  | High |
+| **Tier 2** | 18-36 months |  | Medium |
+| **Tier 3** | 36-60 months |  | Low |
+| **Total** | 5-6 years | **** | Varies |
 
 **Note:** These are rough estimates. Actual costs depend on:
 - Tier 1 success (determines whether Tier 2/3 proceed)
@@ -304,7 +304,7 @@ This document outlines research directions beyond the 6-month validation and pil
 - Native safety architecture (not bolt-on)
 - Competitive advantage in AI safety
 
-**Investment:** $5-10M (Anthropic), $10-15M (THEOS + other partners)
+**Investment:**  (Anthropic),  (THEOS + other partners)
 
 ---
 
@@ -322,7 +322,7 @@ This document outlines research directions beyond the 6-month validation and pil
 - Advanced safety architectures for future Claude versions
 - Field-wide influence on AI safety standards
 
-**Investment:** $3-7M (Anthropic), $7-10M (THEOS + other partners)
+**Investment:**  (Anthropic),  (THEOS + other partners)
 
 ---
 

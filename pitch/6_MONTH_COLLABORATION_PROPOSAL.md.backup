@@ -80,10 +80,12 @@ Anthropic researchers independently replicate THEOS overlay results on Claude So
 - Weekly check-in meetings
 
 **Anthropic provides:**
+- Compute (~$10K for 325 queries × 2.5-3.5x overhead)
 - 2-3 researchers (50% time, 2 months)
 - Claude API access
 - Test environment
 
+**Total investment:** ~$25K (Anthropic)
 
 ---
 
@@ -155,10 +157,12 @@ Deploy THEOS overlay on Claude in controlled production environment for real-wor
 - Incident response support
 
 **Anthropic provides:**
+- Pilot infrastructure (~$15K setup + compute)
 - 1-2 engineers (50% time, 2 months)
 - Physician early adopters (10-20 users)
 - Medical knowledge tools (database access, clinical guidelines)
 
+**Total investment:** ~$25K (Anthropic)
 
 ---
 
@@ -236,6 +240,7 @@ Assess feasibility of production-scale THEOS deployment on Claude and develop ro
 - Regulatory and compliance review
 - Production infrastructure planning
 
+**Total investment:** ~$20K (Anthropic)
 
 ---
 
@@ -250,11 +255,16 @@ Assess feasibility of production-scale THEOS deployment on Claude and develop ro
 - Incident response support
 - Analysis and reporting
 
+**Value:** ~$150K (if purchased as consulting services)
 
 ### Anthropic Investment (6 Months)
 
 | Phase | Duration | Resources | Cost |
 |-------|----------|-----------|------|
+| **Phase 1: Validation** | Months 1-2 | 2-3 researchers (50%), $10K compute | ~$25K |
+| **Phase 2: Pilot** | Months 3-4 | 1-2 engineers (50%), $15K infrastructure | ~$25K |
+| **Phase 3: Readiness** | Months 5-6 | 2-3 engineers (50%), planning | ~$20K |
+| **Total** | 6 months | ~2.5 FTE-months, infrastructure | **~$70K** |
 
 **Note:** Costs are estimates; actual may vary based on team composition and infrastructure needs.
 
@@ -275,7 +285,9 @@ Assess feasibility of production-scale THEOS deployment on Claude and develop ro
 - Peer-reviewed publication (Anthropic + THEOS co-authors)
 - Open source contribution (reference implementation)
 
+**Estimated value:** $500K - $2M (differentiated product, market positioning, research leadership)
 
+**ROI:** 7x - 30x (if production deployment succeeds)
 
 ---
 
@@ -383,6 +395,7 @@ Assess feasibility of production-scale THEOS deployment on Claude and develop ro
 
 ### Phase 3: Production Readiness (Months 5-6)
 
+- [ ] Clear business case (ROI >3x)
 - [ ] Technical readiness (scalable architecture designed)
 - [ ] Regulatory compliance (if applicable)
 - [ ] User adoption validated (>85% satisfaction)
@@ -487,6 +500,7 @@ Assess feasibility of production-scale THEOS deployment on Claude and develop ro
 
 ✅ **Clear objective:** Validate THEOS overlay on Claude, deploy pilot, assess production readiness
 
+✅ **Modest investment:** ~$70K (Anthropic), ~$150K value (THEOS contribution)
 
 ✅ **Decision points:** Month 2, Month 4, Month 6 (clear success/fail criteria)
 
