@@ -6,7 +6,7 @@
 
 *"Transparency is a governance choice. THEOS makes that choice mandatory."*
 
-**Think of it as a Theostat:** Like a thermostat that monitors temperature and adjusts heating/cooling to maintain comfort, the THEOS Governor monitors risk signals and adjusts constraints to keep AI systems operating within safe boundaries.
+**Think of it as a "Theostat":** Like a thermostat that monitors temperature and adjusts heating/cooling to maintain comfort, the THEOS Governor monitors risk signals and adjusts constraints to keep AI systems operating within safe boundaries.
 
 ---
 
