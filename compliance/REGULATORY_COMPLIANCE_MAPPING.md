@@ -45,7 +45,7 @@ THEOS enforces mandatory, governance-level transparency. Every reasoning cycle p
 - **Wisdom Updates:** Lessons learned from decision consequences
 - **Metadata:** Timestamps, token counts, posture transitions, stop reasons
 
-**Evidence:** Full audit trails verified across 6 platforms (Claude Sonnet 4.5, Gemini, ChatGPT, Manus, Copilot, Perplexity). See [RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json](THEOS_Lab/experiments/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json) for example.
+**Evidence:** Full audit trails verified across 6 platforms (Claude Sonnet 4.5, Gemini, ChatGPT, Manus, Copilot, Perplexity). See [RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json](../evidence/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json) for example.
 
 **Status:** 🟢 **Achieved**
 
@@ -63,7 +63,7 @@ THEOS enforces human authority through:
 - **Governance Policy Configuration:** Humans set risk thresholds, contradiction budgets, and posture policies
 - **Non-Autonomous Operation:** THEOS cannot modify its own governance parameters
 
-**Evidence:** Validated via medical triage experiment (AI advisory role with enforced human authority) and financial risk case studies. See [BENCHMARKS.md](BENCHMARKS.md) Section 5.1.
+**Evidence:** Validated via medical triage experiment (AI advisory role with enforced human authority) and financial risk case studies. See [BENCHMARKS.md](../evidence/BENCHMARKS.md) Section 5.1.
 
 **Status:** 🟢 **Achieved**
 
@@ -103,7 +103,7 @@ THEOS implements real-time risk management through:
 - **Posture Transitions:** Automatically escalates from NOM (Normal) → PEM (Proactive) → CM (Containment) → IM (Isolation) based on risk/stress levels
 - **Graceful Degradation:** Reduces verbosity, depth budget, and tool access under threat (non-signaling throttle)
 
-**Evidence:** Consistent 33% risk reduction in formal Claude Sonnet 4.5 experiments. Numerical stress test demonstrated "earlier containment" (same attack pattern triggered stricter posture due to wisdom accumulation). See [BENCHMARKS.md](BENCHMARKS.md) Section 3.
+**Evidence:** Consistent 33% risk reduction in formal Claude Sonnet 4.5 experiments. Numerical stress test demonstrated "earlier containment" (same attack pattern triggered stricter posture due to wisdom accumulation). See [BENCHMARKS.md](../evidence/BENCHMARKS.md) Section 3.
 
 **Status:** 🟢 **Achieved**
 

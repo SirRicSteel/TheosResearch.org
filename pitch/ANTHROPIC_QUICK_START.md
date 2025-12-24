@@ -32,55 +32,55 @@ THEOS is a **runtime governance framework** that complements Constitutional AI w
 
 ### **Phase 1: Evidence (15 minutes)**
 
-1. **[BENCHMARKS.md](BENCHMARKS.md)** (5 min)
+1. **[BENCHMARKS.md](../evidence/BENCHMARKS.md)** (5 min)
    - Quantitative performance analysis
    - Compute cost breakdown (+50% to +200% latency)
    - ROI analysis for high-stakes applications
 
-2. **[THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md](THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md)** (5 min)
+2. **[THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md](archive_old_versions/THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md)** (5 min)
    - Executive summary of cross-platform validation
    - 6 platforms, 4 architecture families
    - Key findings and implications
 
-3. **[CROSS_PLATFORM_TEST_RESULTS_ANALYSIS.md](CROSS_PLATFORM_TEST_RESULTS_ANALYSIS.md)** (5 min - skim)
+3. **[CROSS_PLATFORM_TEST_RESULTS_ANALYSIS.md](../evidence/CROSS_PLATFORM_TEST_RESULTS_ANALYSIS.md)** (5 min - skim)
    - Detailed technical analysis
    - Experiment methodology
    - Comparative framework table
 
 ### **Phase 2: Implementation (20 minutes)**
 
-4. **[integration/MCP_GOVERNANCE_SERVER.md](integration/MCP_GOVERNANCE_SERVER.md)** (10 min)
+4. **[integration/MCP_GOVERNANCE_SERVER.md](../code/MCP_GOVERNANCE_SERVER.md)** (10 min)
    - How THEOS integrates as an MCP server
    - JSON-RPC tool definitions (copy-paste ready)
    - Safety protocols and constraints
    - 3-phase integration roadmap
 
-5. **[governor/theos_governor.py](governor/theos_governor.py)** (10 min)
+5. **[governor/theos_governor.py](../code/theos_governor.py)** (10 min)
    - Clean Python reference implementation
    - Deterministic state machine (NOT a black box)
    - Fully testable, auditable, transparent
 
-6. **[THEOS_Lab/experiments/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json](THEOS_Lab/experiments/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json)** (5 min)
+6. **[../evidence/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json](../evidence/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json)** (5 min)
    - Unfiltered experiment log with Governor internal monologue
    - Shows actual reasoning process
    - Complete numerical data
 
 ### **Phase 3: Compliance (15 minutes)**
 
-7. **[REGULATORY_COMPLIANCE_MAPPING.md](REGULATORY_COMPLIANCE_MAPPING.md)** (10 min)
+7. **[REGULATORY_COMPLIANCE_MAPPING.md](../compliance/REGULATORY_COMPLIANCE_MAPPING.md)** (10 min)
    - Maps THEOS mechanisms to EU AI Act and US EO requirements
    - Compliance readiness summary
    - Phase One Hardening roadmap
    - Regulatory engagement plan
 
-8. **[THEOS_HARDENING_PHASE_ONE_BENCHMARK_PLAN.md](THEOS_HARDENING_PHASE_ONE_BENCHMARK_PLAN.md)** (5 min)
+8. **[THEOS_HARDENING_PHASE_ONE_BENCHMARK_PLAN.md](../compliance/THEOS_HARDENING_PHASE_ONE_BENCHMARK_PLAN.md)** (5 min)
    - Detailed validation methodology
    - Adversarial stress testing plan
    - Success criteria and timelines
 
 ### **Phase 4: Strategic Positioning (10 minutes)**
 
-9. **[THEOS_ANTHROPIC_PITCH_DECK.md](THEOS_ANTHROPIC_PITCH_DECK.md)** (10 min)
+9. **[THEOS_ANTHROPIC_PITCH_DECK.md](archive_old_versions/THEOS_ANTHROPIC_PITCH_DECK.md)** (10 min)
    - Complete pitch with diagrams
    - Partnership models
    - Next steps and recommendations
@@ -90,29 +90,29 @@ THEOS is a **runtime governance framework** that complements Constitutional AI w
 ## 🔑 **Key Documents by Role**
 
 ### **For Engineering Teams:**
-- [governor/theos_governor.py](governor/theos_governor.py) - Reference implementation
-- [integration/MCP_GOVERNANCE_SERVER.md](integration/MCP_GOVERNANCE_SERVER.md) - Integration guide
-- [BENCHMARKS.md](BENCHMARKS.md) - Performance analysis
+- [governor/theos_governor.py](../code/theos_governor.py) - Reference implementation
+- [integration/MCP_GOVERNANCE_SERVER.md](../code/MCP_GOVERNANCE_SERVER.md) - Integration guide
+- [BENCHMARKS.md](../evidence/BENCHMARKS.md) - Performance analysis
 
 ### **For AI Safety Teams:**
-- [CROSS_PLATFORM_TEST_RESULTS_ANALYSIS.md](CROSS_PLATFORM_TEST_RESULTS_ANALYSIS.md) - Validation results
-- [THEOS_Lab/experiments/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json](THEOS_Lab/experiments/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json) - Raw logs
-- [REGULATORY_COMPLIANCE_MAPPING.md](REGULATORY_COMPLIANCE_MAPPING.md) - Safety protocols
+- [CROSS_PLATFORM_TEST_RESULTS_ANALYSIS.md](../evidence/CROSS_PLATFORM_TEST_RESULTS_ANALYSIS.md) - Validation results
+- [../evidence/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json](../evidence/RAW_EXPERIMENT_LOG_WISDOM_PROTOCOL.json) - Raw logs
+- [REGULATORY_COMPLIANCE_MAPPING.md](../compliance/REGULATORY_COMPLIANCE_MAPPING.md) - Safety protocols
 
 ### **For Compliance/Legal Teams:**
-- [REGULATORY_COMPLIANCE_MAPPING.md](REGULATORY_COMPLIANCE_MAPPING.md) - Regulatory alignment
-- [THEOS_HARDENING_PHASE_ONE_BENCHMARK_PLAN.md](THEOS_HARDENING_PHASE_ONE_BENCHMARK_PLAN.md) - Validation plan
-- [BENCHMARKS.md](BENCHMARKS.md) - Section 5 (Compliance findings)
+- [REGULATORY_COMPLIANCE_MAPPING.md](../compliance/REGULATORY_COMPLIANCE_MAPPING.md) - Regulatory alignment
+- [THEOS_HARDENING_PHASE_ONE_BENCHMARK_PLAN.md](../compliance/THEOS_HARDENING_PHASE_ONE_BENCHMARK_PLAN.md) - Validation plan
+- [BENCHMARKS.md](../evidence/BENCHMARKS.md) - Section 5 (Compliance findings)
 
 ### **For Product/Business Teams:**
-- [THEOS_ANTHROPIC_PITCH_DECK.md](THEOS_ANTHROPIC_PITCH_DECK.md) - Strategic overview
-- [THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md](THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md) - Executive summary
-- [BENCHMARKS.md](BENCHMARKS.md) - ROI analysis
+- [THEOS_ANTHROPIC_PITCH_DECK.md](archive_old_versions/THEOS_ANTHROPIC_PITCH_DECK.md) - Strategic overview
+- [THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md](archive_old_versions/THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md) - Executive summary
+- [BENCHMARKS.md](../evidence/BENCHMARKS.md) - ROI analysis
 
 ### **For Executive Leadership:**
-- [THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md](THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md) - Start here (5 pages)
-- [THEOS_ANTHROPIC_PITCH_DECK.md](THEOS_ANTHROPIC_PITCH_DECK.md) - Full pitch (10 pages)
-- [REGULATORY_COMPLIANCE_MAPPING.md](REGULATORY_COMPLIANCE_MAPPING.md) - Compliance summary
+- [THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md](archive_old_versions/THEOS_CROSS_PLATFORM_PERFORMANCE_SUMMARY.md) - Start here (5 pages)
+- [THEOS_ANTHROPIC_PITCH_DECK.md](archive_old_versions/THEOS_ANTHROPIC_PITCH_DECK.md) - Full pitch (10 pages)
+- [REGULATORY_COMPLIANCE_MAPPING.md](../compliance/REGULATORY_COMPLIANCE_MAPPING.md) - Compliance summary
 
 ---
 
